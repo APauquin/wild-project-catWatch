@@ -9,7 +9,7 @@
   <title>footer</title>
 </head>
 <body>
-<div>
+<div class="nav">
   <img id="logo" src="logo.png" alt "logo">
         
   <nav>
