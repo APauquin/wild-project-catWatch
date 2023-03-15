@@ -19,7 +19,7 @@
 
     <!-- nav bar starts here -->
 
-    <?php include ("navBar.php"); ?>
+    <?php include ("./assets-php/navBar.php"); ?>
 
     <!-- nav bar ends here-->
 
@@ -333,7 +333,7 @@
 
     <!-- footer starts here -->
 
-    <?php include ("footer.php");?>
+    <?php include ("./assets-php/footer.php");?>
 
     <!-- end of footer -->
 
