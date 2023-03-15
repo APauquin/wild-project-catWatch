@@ -147,7 +147,7 @@
                     </p>
                 </div>
             </div>
-<?php (include 'navBar.php';?>
+
             <div class="newsFlash">
                 <img class="secondaryImg" src="./assets-img/catWheel.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
                 <div class="newsFlashContent">
