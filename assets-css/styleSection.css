@@ -15,20 +15,30 @@ article {
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 65px 1fr 1fr;
-    gap: 1rem;
-    margin: 0 10%;
+    gap: 2rem;
+    margin: 3em 12% 3em;
     max-height: 600px;
-}
-
-div {
-    background-color: #99949B;
 }
 
 article h2 {
     grid-column-start: 1;
     grid-column-end: 4;
-    background-color: #99949B;
-    padding: 0 20px;
+    background-color: #232750;
+    font-weight: 900;
+    font-size: 3rem;
+    padding: 0.1em 2em;
+    margin: 0 0 0 0;
+    text-transform: uppercase;
+    color: #f3f3f3;
+    border-radius: 10px;
+}
+
+h3.mainFlashTitle, p.date {
+    margin: 0 10px 10px;
+}
+
+h3.flashTitle {
+    margin: 0 10px 15px;
 }
 
 article div:first-of-type {
@@ -37,9 +47,18 @@ article div:first-of-type {
 }
 
 div img.mainImg {
-    min-width: 100%;
+    min-width: 93.5%;
     height: auto;
     max-height: 45%;
+    margin: 10px;
+    border-radius: 20px;
+    aspect-ratio: 2/3;
+}
+
+div img.secondaryImg {
+    min-width: 40%;
+    min-height: 100%;
+    border-radius: 20px;
 }
 
 div.newsFlash {
@@ -50,31 +69,36 @@ div.newsFlash {
 p.newsFlashText {
     max-width: 95%;
     display: -webkit-box !important;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
     white-space: normal;
     text-overflow: ellipsis;
     overflow: hidden;
+    margin: 0 10px;
 }
 
 div.mainNewsFlash p.newsFlashText {
     max-width: 100%;
-    -webkit-line-clamp: 5;
-}
-
-div img.secondaryImg {
-    min-width: 40%;
-    min-height: 100%;
+    -webkit-line-clamp: 8;
 }
 
 div .newsFlashContent {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+
     width: 100%;
     min-height: 100%;
-    margin: 0;
+    margin: 0 10px;
+    border-radius: 20px;
+}
+
+.mainNewsFlash {
+    border-radius: 20px;
+}
+
+.newsFlash {
+    border-radius: 20px;
 }
 
 /* Animation */
@@ -82,10 +106,11 @@ div .newsFlashContent {
 div.mainNewsFlash, div.newsFlash {
     transition: box-shadow 0.8s ease-in-out;
     transition: transform 0.3s ease-in-out;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    background-color: white;
 }
 
 div.mainNewsFlash:hover, div.newsFlash:hover {
-    transform: scale(1.05, 1.05);
+    transform: scale(1.1, 1.1);
     box-shadow: 0px 30px 40px rgba(0,0,0,0.3)
 }
