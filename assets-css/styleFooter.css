@@ -20,10 +20,12 @@ footer ul {
 footer a {
   font-family: "Iceland", cursive;
   color: #fefacc;
+  text-decoration: none;
 }
 
 footer a:hover {
-  font-style: italic;
+  font-size: 130%;
+  text-decoration: underline;
   color: #fefacc;
 }
 
