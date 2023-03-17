@@ -5,17 +5,17 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="assets-css/styleAdvice.css" />
+  <link rel="stylesheet" href="assets-css/style.css" />
   <title>Conseils</title>
 </head>
 
-<body>
+<body class="adviceBody">
   <header>
     <?php include("assets-php/navBar.php")
     ?> 
   </header>
 
-  <h2>CONSEILS</h2>
+  <h2 class="adviceH2">CONSEILS</h2>
 
   <section class="main">
     <p class="intro">

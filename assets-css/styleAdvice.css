@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Iceland&family=Zen+Tokyo+Zoo&display=swap");
 
-body {
+body.adviceBody {
   margin: 0;
   background-color: #e4e4e4;
 }
 
 /* ***********TITRE + IMAGE*************** */
 
-h2 {
+h2.adviceH2 {
   background-image: url(https://st4.depositphotos.com/1000423/22900/i/600/depositphotos_229009450-stock-photo-first-trip-to-space-mixed.jpg);
   background-repeat: no-repeat;
   background-position: center;

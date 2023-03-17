@@ -1,6 +1,5 @@
 
-
-h2 {
+h2.contactH2 {
   background-image: url(https://cdn.discordapp.com/attachments/1083297855227314218/1083399198508056608/CAT_IMAGE.webp);
   background-repeat: no-repeat;
   background-position: center;
@@ -18,11 +17,11 @@ h2 {
   
 /* Contact box */
 
-  body {
+  body.contactBody {
     font-size: 12px;
   }
   
-  body, button, input {
+  body.contactBody, button.app-form-button, input {
     font-family: 'Island';
     font-weight: 40px;
     letter-spacing: 1.4px;
@@ -44,7 +43,7 @@ h2 {
     position: relative;
     background: #d7d6d6;
     border-radius: 15px;
-    shadow: #172023;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
   }
   
   .screen-body {
@@ -165,7 +164,7 @@ h2 {
     }
   }
 
-h3 {
+h3.contactH3 {
     display: flex;
     justify-content: space-around;
   }

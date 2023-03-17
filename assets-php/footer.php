@@ -9,7 +9,7 @@
   <title>footer</title>
 </head>
 
-<body>
+<body class="footerBody">
   <div class="footer">
     <footer>
       <ul>
