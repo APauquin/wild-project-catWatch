@@ -13,7 +13,7 @@
 
 <!-- media screen width start for mobile = 900px -->
 
-<body>
+<body id="rainbow5" >
 
     <!-- WE MUST SET SIZES FOR EVERYTHING TO ENSURE FLUID IMPLEMENTATION -->
 
@@ -27,11 +27,13 @@
     <section>
 
         <!-- Chaturbate -->
+
         <article class="indexGrid">
 
             <div class="h2container">
-                <h2 class="indexH2">Chattearoulette</h2>
+                <h2 class="indexH2" id="rainbow4">Chattearoulette</h2>
             </div>
+
 
             <div class="mainNewsFlash" class="image">
                 <img class="mainImg" src="./assets-img/cat-wagon.jpeg" alt="Cute handicapped cat with a wheeled contraption attached to its body, allowing it to move freely!">
