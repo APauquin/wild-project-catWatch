@@ -29,6 +29,11 @@ footer a:hover {
   color: #fefacc;
 }
 
+#rainbow{
+
+  background-image:none; 
+}
+
 /* RESPONSIVE */
 
 @media screen and (max-width: 480px) {
@@ -38,4 +43,5 @@ footer a:hover {
     padding-left: 1rem;
     padding-right: 1rem;
   }
+
 }
