@@ -27,21 +27,23 @@
     <section>
 
         <!-- Chaturbate -->
-        <article>
-            <h2>Chattearoulette</h2>
+        <article class="indexGrid">
+            <h2 class="indexH2">Chattearoulette</h2>
 
             <div class="mainNewsFlash" class="image">
                 <img class="mainImg" src="./assets-img/cat-wagon.jpeg" alt="Cute handicapped cat with a wheeled contraption attached to its body, allowing it to move freely!">
-                <p class="date">17/06/2599</p>
-                <h3 class="mainFlashTitle">Cats with wheels reported to be far cooler</h3>
-                <p class="newsFlashText">
-                    Experts say these new 4x4 cats will soon out perform the earlier variants of cat in both style and
-                    speed.
-                    This news has alarmed the public and set off a chain of armed revolts across the globe.
-                    Estimated death-toll already surpassing the millions globally.
-                    What a dark day to be alive.
-                    Suspendisse potenti. Praesent justo nisi, consectetur ac velit ac, ornare egestas urna. Praesent ultrices nisl ligula, quis pulvinar arcu facilisis et. Aliquam rhoncus lacus diam, at pharetra tellus ornare at. Curabitur pharetra, orci eget placerat egestas, eros mauris placerat est, sit amet blandit felis erat nec mi. Aliquam erat volutpat. Ut in porttitor velit.
-                </p>
+                <div class="mainNewsFlashContent">
+                    <p class="date">17/06/2599</p>
+                    <h3 class="mainFlashTitle">Cats with wheels reported to be far cooler</h3>
+                    <p class="newsFlashText">
+                        Experts say these new 4x4 cats will soon out perform the earlier variants of cat in both style and
+                        speed.
+                        This news has alarmed the public and set off a chain of armed revolts across the globe.
+                        Estimated death-toll already surpassing the millions globally.
+                        What a dark day to be alive.
+                        Suspendisse potenti. Praesent justo nisi, consectetur ac velit ac, ornare egestas urna. Praesent ultrices nisl ligula, quis pulvinar arcu facilisis et. Aliquam rhoncus lacus diam, at pharetra tellus ornare at. Curabitur pharetra, orci eget placerat egestas, eros mauris placerat est, sit amet blandit felis erat nec mi. Aliquam erat volutpat. Ut in porttitor velit.
+                    </p>
+                </div>
             </div>
 
             <div class="newsFlash">
@@ -104,20 +106,22 @@
 
 
         <!-- Chatstronaute -->
-        <article>
-            <h2>Chatstronaute</h2>
+        <article class="indexGrid">
+            <h2 class="indexH2">Chatstronaute</h2>
             <div class="mainNewsFlash" class="image">
                 <img class="mainImg" src="./assets-img/cat-wagon.jpeg" alt="Cute handicapped cat with a wheeled contraption attached to its body, allowing it to move freely!">
-                <p class="date">17/06/2599</p>
-                <h3 class="mainFlashTitle">Cats with wheels reported to be far cooler</h3>
-                <p class="newsFlashText">
-                    Experts say these new 4x4 cats will soon out perform the earlier variants of cat in both style and
-                    speed.
-                    This news has alarmed the public and set off a chain of armed revolts across the globe.
-                    Estimated death-toll already surpassing the millions globally.
-                    What a dark day to be alive.
-                    Suspendisse potenti. Praesent justo nisi, consectetur ac velit ac, ornare egestas urna. Praesent ultrices nisl ligula, quis pulvinar arcu facilisis et. Aliquam rhoncus lacus diam, at pharetra tellus ornare at. Curabitur pharetra, orci eget placerat egestas, eros mauris placerat est, sit amet blandit felis erat nec mi. Aliquam erat volutpat. Ut in porttitor velit.
-                </p>
+                <div class="mainNewsFlashContent">
+                    <p class="date">17/06/2599</p>
+                    <h3 class="mainFlashTitle">Cats with wheels reported to be far cooler</h3>
+                    <p class="newsFlashText">
+                        Experts say these new 4x4 cats will soon out perform the earlier variants of cat in both style and
+                        speed.
+                        This news has alarmed the public and set off a chain of armed revolts across the globe.
+                        Estimated death-toll already surpassing the millions globally.
+                        What a dark day to be alive.
+                        Suspendisse potenti. Praesent justo nisi, consectetur ac velit ac, ornare egestas urna. Praesent ultrices nisl ligula, quis pulvinar arcu facilisis et. Aliquam rhoncus lacus diam, at pharetra tellus ornare at. Curabitur pharetra, orci eget placerat egestas, eros mauris placerat est, sit amet blandit felis erat nec mi. Aliquam erat volutpat. Ut in porttitor velit.
+                    </p>
+                </div>
             </div>
 
             <div class="newsFlash">
@@ -179,20 +183,22 @@
 
 
         <!-- Chatbot -->
-        <article>
-            <h2>Chatbot</h2>
+        <article class="indexGrid">
+            <h2 class="indexH2">Chatbot</h2>
             <div class="mainNewsFlash" class="image">
                 <img class="mainImg" src="./assets-img/cat-wagon.jpeg" alt="Cute handicapped cat with a wheeled contraption attached to its body, allowing it to move freely!">
-                <p class="date">17/06/2599</p>
-                <h3 class="mainFlashTitle">Cats with wheels reported to be far cooler</h3>
-                <p class="newsFlashText">
-                    Experts say these new 4x4 cats will soon out perform the earlier variants of cat in both style and
-                    speed.
-                    This news has alarmed the public and set off a chain of armed revolts across the globe.
-                    Estimated death-toll already surpassing the millions globally.
-                    What a dark day to be alive.
-                    Suspendisse potenti. Praesent justo nisi, consectetur ac velit ac, ornare egestas urna. Praesent ultrices nisl ligula, quis pulvinar arcu facilisis et. Aliquam rhoncus lacus diam, at pharetra tellus ornare at. Curabitur pharetra, orci eget placerat egestas, eros mauris placerat est, sit amet blandit felis erat nec mi. Aliquam erat volutpat. Ut in porttitor velit.
-                </p>
+                <div class="mainNewsFlashContent">
+                    <p class="date">17/06/2599</p>
+                    <h3 class="mainFlashTitle">Cats with wheels reported to be far cooler</h3>
+                    <p class="newsFlashText">
+                        Experts say these new 4x4 cats will soon out perform the earlier variants of cat in both style and
+                        speed.
+                        This news has alarmed the public and set off a chain of armed revolts across the globe.
+                        Estimated death-toll already surpassing the millions globally.
+                        What a dark day to be alive.
+                        Suspendisse potenti. Praesent justo nisi, consectetur ac velit ac, ornare egestas urna. Praesent ultrices nisl ligula, quis pulvinar arcu facilisis et. Aliquam rhoncus lacus diam, at pharetra tellus ornare at. Curabitur pharetra, orci eget placerat egestas, eros mauris placerat est, sit amet blandit felis erat nec mi. Aliquam erat volutpat. Ut in porttitor velit.
+                    </p>
+                </div>
             </div>
 
             <div class="newsFlash">
@@ -254,20 +260,22 @@
 
 
         <!-- Chaliennes sexy -->
-        <article>
-            <h2>Chaliennes</h2>
+        <article class="indexGrid">
+            <h2 class="indexH2">Chaliennes</h2>
             <div class="mainNewsFlash" class="image">
                 <img class="mainImg" src="./assets-img/cat-wagon.jpeg" alt="Cute handicapped cat with a wheeled contraption attached to its body, allowing it to move freely!">
-                <p class="date">17/06/2599</p>
-                <h3 class="mainFlashTitle">Cats with wheels reported to be far cooler</h3>
-                <p class="newsFlashText">
-                    Experts say these new 4x4 cats will soon out perform the earlier variants of cat in both style and
-                    speed.
-                    This news has alarmed the public and set off a chain of armed revolts across the globe.
-                    Estimated death-toll already surpassing the millions globally.
-                    What a dark day to be alive.
-                    Suspendisse potenti. Praesent justo nisi, consectetur ac velit ac, ornare egestas urna. Praesent ultrices nisl ligula, quis pulvinar arcu facilisis et. Aliquam rhoncus lacus diam, at pharetra tellus ornare at. Curabitur pharetra, orci eget placerat egestas, eros mauris placerat est, sit amet blandit felis erat nec mi. Aliquam erat volutpat. Ut in porttitor velit.
-                </p>
+                <div class="mainNewsFlashContent">
+                    <p class="date">17/06/2599</p>
+                    <h3 class="mainFlashTitle">Cats with wheels reported to be far cooler</h3>
+                    <p class="newsFlashText">
+                        Experts say these new 4x4 cats will soon out perform the earlier variants of cat in both style and
+                        speed.
+                        This news has alarmed the public and set off a chain of armed revolts across the globe.
+                        Estimated death-toll already surpassing the millions globally.
+                        What a dark day to be alive.
+                        Suspendisse potenti. Praesent justo nisi, consectetur ac velit ac, ornare egestas urna. Praesent ultrices nisl ligula, quis pulvinar arcu facilisis et. Aliquam rhoncus lacus diam, at pharetra tellus ornare at. Curabitur pharetra, orci eget placerat egestas, eros mauris placerat est, sit amet blandit felis erat nec mi. Aliquam erat volutpat. Ut in porttitor velit.
+                    </p>
+                </div>
             </div>
 
             <div class="newsFlash">

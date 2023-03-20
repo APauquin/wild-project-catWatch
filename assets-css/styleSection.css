@@ -7,20 +7,20 @@
 section {
     display: flex;
     flex-direction: column;
-    margin: 0 10rem 2rem 10rem;
+    margin: 0 0 2rem 0;
 }
 
 /* Main grid template */
-article {
+article.indexGrid {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 32% 32% 32%;
     grid-template-rows: 65px 1fr 1fr;
-    gap: 2rem;
-    margin: 3em 12% 3em;
+    gap: 4%;
+    margin: 3em 12% 3em 12%;
     max-height: 600px;
 }
 
-article h2 {
+h2.indexH2 {
     grid-column-start: 1;
     grid-column-end: 4;
     background-color: #232750;
@@ -81,7 +81,15 @@ p.newsFlashText {
 
 div.mainNewsFlash p.newsFlashText {
     max-width: 100%;
-    -webkit-line-clamp: 8;
+    -webkit-line-clamp: 9;
+}
+
+div.mainNewsFlashContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    max-height: 100%;
 }
 
 div .newsFlashContent {
@@ -107,11 +115,148 @@ div .newsFlashContent {
 div.mainNewsFlash, div.newsFlash {
     transition: box-shadow 0.8s ease-in-out;
     transition: transform 0.3s ease-in-out;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
     background-color: white;
 }
 
 div.mainNewsFlash:hover, div.newsFlash:hover {
     transform: scale(1.1, 1.1);
-    box-shadow: 0px 30px 40px rgba(0,0,0,0.3)
+    box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.3)
+}
+
+
+/* media breakpoint 901 - 1300px */
+
+@media screen and (max-width: 1300px) and (min-width: 901px) {
+    article.indexGrid {
+        grid-template-columns: 48% 48%;
+        grid-template-rows: 65px 1fr 1fr 1fr 1fr;
+        gap: 4%;
+        max-height: 800px;
+        margin: 3em 10% 3em;
+    }
+
+    h2.indexH2 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        text-align: center;
+        padding: 0.1em 0em;
+    }
+
+    article div:first-of-type {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    div img.mainImg {
+        max-width: 50%;
+        min-height: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    div img.secondaryImg {
+        min-width: 40%;
+        min-height: 100%;
+        border-radius: 20px;
+        object-fit: cover;
+    }
+
+    div.mainNewsFlash {
+        display: flex;
+    }
+
+    div.mainNewsFlashContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        min-height: 100%;
+        padding: 20px 10px;
+        border-radius: 20px;
+        font-size: 20px;
+    }
+
+    h3.mainFlashTitle {
+        font-size: 30px;
+    }
+
+    p.newsFlashText {
+        -webkit-line-clamp: 2;
+    }
+
+    div.mainNewsFlash p.newsFlashText {
+        -webkit-line-clamp: 6;
+    }
+}
+
+/* media break point under 900px */
+
+@media screen and (max-width: 901px) {
+    section {
+        display: flex;
+        flex-direction: column;
+        margin: 0 10% 0;
+    }
+
+    article.indexGrid {
+        grid-template-columns: 48% 48%;
+        grid-template-rows: 8vw 1fr 1fr 1fr 1fr;
+        max-height: 800px;
+        margin: 2em 0;
+    }
+
+    h2.indexH2 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        text-align: center;
+        font-size: 7vw;
+        padding: 0;
+    }
+
+    article div:first-of-type {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    div img.mainImg {
+        max-width: 50%;
+        min-height: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    div img.secondaryImg {
+        min-width: 40%;
+        min-height: 100%;
+        border-radius: 20px;
+        object-fit: cover;
+    }
+
+    div.mainNewsFlash {
+        display: flex;
+    }
+
+    div.mainNewsFlashContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        min-height: 100%;
+        padding: 20px 10px;
+        border-radius: 20px;
+        font-size: 20px;
+    }
+
+    h3.mainFlashTitle {
+        font-size: 6vw;
+    }
+
+    p.newsFlashText {
+        -webkit-line-clamp: 2;
+    }
+
+    div.mainNewsFlash p.newsFlashText {
+        -webkit-line-clamp: 3;
+    }
 }
