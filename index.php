@@ -22,13 +22,16 @@
     <?php include("./assets-php/navBar.php"); ?>
 
     <!-- nav bar ends here-->
-    <?php include(".assets-php/mainImgIndex"); ?>
+    <?php include("./assets-php/mainImgIndex.php"); ?>
     <!-- article list -->
     <section>
 
         <!-- Chaturbate -->
         <article class="indexGrid">
-            <h2 class="indexH2">Chattearoulette</h2>
+
+            <div class="h2container">
+                <h2 class="indexH2">Chattearoulette</h2>
+            </div>
 
             <div class="mainNewsFlash" class="image">
                 <img class="mainImg" src="./assets-img/cat-wagon.jpeg" alt="Cute handicapped cat with a wheeled contraption attached to its body, allowing it to move freely!">
@@ -107,7 +110,11 @@
 
         <!-- Chatstronaute -->
         <article class="indexGrid">
-            <h2 class="indexH2">Chatstronaute</h2>
+
+            <div class="h2container">
+                <h2 class="indexH2">Chatstronaute</h2>
+            </div>
+
             <div class="mainNewsFlash" class="image">
                 <img class="mainImg" src="./assets-img/cat-wagon.jpeg" alt="Cute handicapped cat with a wheeled contraption attached to its body, allowing it to move freely!">
                 <div class="mainNewsFlashContent">
@@ -184,7 +191,11 @@
 
         <!-- Chatbot -->
         <article class="indexGrid">
-            <h2 class="indexH2">Chatbot</h2>
+
+            <div class="h2container">
+                <h2 class="indexH2">Chatbot</h2>
+            </div>
+
             <div class="mainNewsFlash" class="image">
                 <img class="mainImg" src="./assets-img/cat-wagon.jpeg" alt="Cute handicapped cat with a wheeled contraption attached to its body, allowing it to move freely!">
                 <div class="mainNewsFlashContent">
@@ -261,7 +272,11 @@
 
         <!-- Chaliennes sexy -->
         <article class="indexGrid">
-            <h2 class="indexH2">Chaliennes</h2>
+
+            <div class="h2container">
+                <h2 class="indexH2">Chatliennes</h2>
+            </div>
+
             <div class="mainNewsFlash" class="image">
                 <img class="mainImg" src="./assets-img/cat-wagon.jpeg" alt="Cute handicapped cat with a wheeled contraption attached to its body, allowing it to move freely!">
                 <div class="mainNewsFlashContent">

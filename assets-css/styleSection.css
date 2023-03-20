@@ -20,28 +20,26 @@ article.indexGrid {
     max-height: 600px;
 }
 
-h2.indexH2 {
+div.h2container {
     grid-column-start: 1;
     grid-column-end: 4;
     background-color: #232750;
     font-weight: 900;
-    font-size: 3rem;
-    padding: 0.1em 2em;
+    padding: 0;
     margin: 0 0 0 0;
-    text-transform: uppercase;
     color: #f3f3f3;
     border-radius: 10px;
 }
 
-h3.mainFlashTitle, p.date {
-    margin: 0 10px 10px;
+h2.indexH2 {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    font-size: 3.5em;
+    text-transform: uppercase;
 }
 
-h3.flashTitle {
-    margin: 0 10px 15px;
-}
-
-article div:first-of-type {
+article div.mainNewsFlash {
     grid-row-start: 2;
     grid-row-end: 4;
 }
@@ -76,7 +74,7 @@ p.newsFlashText {
     white-space: normal;
     text-overflow: ellipsis;
     overflow: hidden;
-    margin: 0 10px;
+    padding: 0;
 }
 
 div.mainNewsFlash p.newsFlashText {
@@ -89,17 +87,20 @@ div.mainNewsFlashContent {
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
+    height: 50%;
     max-height: 100%;
+    padding: 0 20px;
 }
 
 div .newsFlashContent {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    justify-content: space-between;
     width: 100%;
     min-height: 100%;
-    margin: 0 10px;
     border-radius: 20px;
+    padding: 10px;
 }
 
 .mainNewsFlash {
@@ -136,16 +137,21 @@ div.mainNewsFlash:hover, div.newsFlash:hover {
         margin: 3em 10% 3em;
     }
 
-    h2.indexH2 {
+    div.h2container {
         grid-column-start: 1;
         grid-column-end: 3;
         text-align: center;
         padding: 0.1em 0em;
     }
 
-    article div:first-of-type {
+    article div.mainNewsFlash {
         grid-column-start: 1;
         grid-column-end: 3;
+    }
+
+    h2.indexH2 {
+        justify-content: center;
+        padding: 0;
     }
 
     div img.mainImg {
@@ -182,7 +188,7 @@ div.mainNewsFlash:hover, div.newsFlash:hover {
     }
 
     p.newsFlashText {
-        -webkit-line-clamp: 2;
+        -webkit-line-clamp: 3;
     }
 
     div.mainNewsFlash p.newsFlashText {
@@ -196,25 +202,34 @@ div.mainNewsFlash:hover, div.newsFlash:hover {
     section {
         display: flex;
         flex-direction: column;
-        margin: 0 10% 0;
+        margin: 0 5%;
     }
 
     article.indexGrid {
         grid-template-columns: 48% 48%;
-        grid-template-rows: 8vw 1fr 1fr 1fr 1fr;
-        max-height: 800px;
+        grid-template-rows: 7vw 0.7fr 2fr 2fr 2fr;
+        max-height: 500px;
         margin: 2em 0;
     }
 
-    h2.indexH2 {
+    div.h2container{
         grid-column-start: 1;
         grid-column-end: 3;
-        text-align: center;
-        font-size: 7vw;
+        justify-items: center;
+        align-items: center;
+        font-size: 6vw;
         padding: 0;
     }
 
-    article div:first-of-type {
+    h2.indexH2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1em;
+        padding: 0;
+    }
+
+    article div.mainNewsFlash {
         grid-column-start: 1;
         grid-column-end: 3;
     }
@@ -224,6 +239,7 @@ div.mainNewsFlash:hover, div.newsFlash:hover {
         min-height: 100%;
         object-fit: cover;
         object-position: top;
+        padding: 5px;
     }
 
     div img.secondaryImg {
@@ -243,13 +259,25 @@ div.mainNewsFlash:hover, div.newsFlash:hover {
         justify-content: space-between;
         width: 100%;
         min-height: 100%;
-        padding: 20px 10px;
+        padding: 5px 10px;
         border-radius: 20px;
         font-size: 20px;
     }
 
+    div.newsFlashContent {
+        padding: 5px 5px;
+        margin: 0;
+        gap: 0;
+        justify-content: space-between;
+        height: 100%;
+    }
+
     h3.mainFlashTitle {
-        font-size: 6vw;
+        font-size: 0.9em;
+    }
+
+    h3.flashTitle {
+        font-size: 1.1em;
     }
 
     p.newsFlashText {
@@ -257,6 +285,23 @@ div.mainNewsFlash:hover, div.newsFlash:hover {
     }
 
     div.mainNewsFlash p.newsFlashText {
-        -webkit-line-clamp: 3;
+        -webkit-line-clamp: 4;
     }
+
+    p.date, p.newsFlashText {
+        font-size: 0.7em;
+    }
+
+    div.newsFlash p.date, div.newsFlash p.newsFlashText {
+        font-size: 0.8em;
+    }
+
+    /* hide text on scondary updates */
+
+    div.newsFlash p.newsFlashText {
+        visibility: hidden;
+        display: none;
+        height: 0%;
+    }
+    
 }
