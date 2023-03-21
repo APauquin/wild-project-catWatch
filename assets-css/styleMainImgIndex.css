@@ -1,4 +1,15 @@
 img.indexMainImg {
-    max-height: 92vh;
+    min-height: 93vh;
     width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+@media screen and (max-width: 601px) {
+    img.indexMainImg {
+        min-height: 90vh;
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
 }

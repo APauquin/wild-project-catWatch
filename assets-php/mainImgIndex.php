@@ -12,6 +12,7 @@
 
 <body>
     <img class="indexMainImg" src="../assets-img/indexCatArt.jpg" alt="Robot cat facing off a organic cat through a window">
+
 </body>
 
 </html>
