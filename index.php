@@ -24,7 +24,7 @@
     <!-- nav bar ends here-->
     <?php include("./assets-php/mainImgIndex.php"); ?>
     <!-- article list -->
-    <section>
+    <section class="indexSection">
 
         <!-- Chaturbate -->
 

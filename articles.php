@@ -11,8 +11,8 @@
     <title>Cat Watch</title>
 </head>
 <body>
-    <!-- article list -->
-    </section>
+    
+    <section class="sectionArticles">
     
         <section class="last-posts" id="last-posts">
             <h2>Our latest posts</h2>
@@ -22,7 +22,7 @@
                 
                 <ul>
                         
-                            <h3>Merlin:</h3>
+                            <h3 class="articlesH3">Merlin:</h3>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                             </p>
