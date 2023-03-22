@@ -3,11 +3,11 @@ body.footerBody {
   margin-top: 0;
 }
 
-footer {
+.footer {
   height: 3.5rem;
   background-color: #232750;
 }
-footer ul {
+.footer ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -17,20 +17,20 @@ footer ul {
   margin-bottom: 0;
   margin-top: 0;
 }
-footer a {
+.footer a {
   font-family: "Iceland", cursive;
   color: #fefacc;
   text-decoration: none;
 }
 
-footer a:hover {
+.footer a:hover {
   font-size: 130%;
   text-decoration: underline;
   color: #fefacc;
 }
 
 #rainbow{
-
+ 
   background-image:none; 
 }
 

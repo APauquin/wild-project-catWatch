@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
 
-:root {
-
-    --main_color: #242324;
-}
-
 @media screen and (min-width:800px) {
 
     /*pc*/
@@ -36,7 +31,7 @@
 
     #mobile {
         width: 100%;
-        background-color: var(--main_color);
+        background-color: #090B3C;
         display: flex;
         justify-content: center;
         height: 2rem;
@@ -58,13 +53,14 @@
     }
 }
 
+/* Navbar */
 ul {
     margin-top: -0.25rem;
     z-index: 1;
 }
 
-
 nav {
+    background-color: #090B3C;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -73,7 +69,6 @@ nav {
     z-index: 1;
     font-family: 'Iceland', cursive;
     font-size: 2rem;
-
 }
 
 #logo {
@@ -86,6 +81,7 @@ nav {
     margin-top: -0.2rem;
 }
 
+/* Pour faire un place au logo */
 #vide {
     flex: 1
 }
@@ -95,25 +91,11 @@ nav>ul {
     display: flex;
     text-align: center;
     width: 100%;
-
-
 }
 
-#rainbow {
-    background-color: #090B3C;
-    background-image: none;
-}
-
-#rainbow2 {
-
-    background-image: none;
-}
 
 nav ul {
     list-style-type: none;
-    /* background-image: linear-gradient(to bottom, Red , Orange, Yellow, Green, Blue, Indigo, Violet); */
-
-
 }
 
 nav>ul>li {
@@ -128,12 +110,6 @@ nav>ul>li>a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-}
-
-.rainbow {
-    height: auto;
-    width: 100%;
 
 }
 
@@ -191,19 +167,6 @@ nav>ul>li:hover>a {
     color: white;
 }
 
-@keyframes rotationFleche {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    100% {
-        transform: rotate(90deg);
-    }
-}
-
-#arrow:hover {
-    animation: rotationFleche 0.2s linear forwards;
-}
 
 @keyframes apparitionSousMenu {
     0% {
@@ -226,17 +189,6 @@ nav>ul>li:hover>a {
     animation: apparitionSousMenu 1s forwards;
 }
 
-@keyframes apparition {
-    from {
-        opacity: 0;
-        transform: translateY(-100px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0px);
-    }
-}
 
 #logo:hover {
     animation: rotate 2s linear infinite, rotate 2s linear infinite;
@@ -268,18 +220,8 @@ nav>ul>li:hover>a {
     }
 }
 
-
-
 #nyanpc {
-
-
+    background-color: rgba(255, 0, 0, 0);
     border: none;
-
-    position: fixed;
-    top: 20rem;
-    left: 0rem;
-
-    font-size: 16px;
-
     cursor: pointer;
 }
