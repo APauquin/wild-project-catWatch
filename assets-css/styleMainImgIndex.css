@@ -1,0 +1,39 @@
+img.indexMainImg {
+    max-height: 50vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: 25% 50%;
+}
+
+div.mainImgContainer {
+    position: relative;
+    text-align: center;
+}
+
+div.centered {
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-0%, -80%);
+    color: white;
+    font-size: 5.5vh;
+    font-weight: 400;
+    text-shadow: -2px 0px 0px #CE5937, 2px 0px 0px #CE5937, 0px 2px 0px #CE5937, 0px -2px 0px #CE5937, 1px -1px 0px #CE5937, -2px -2px 0px #CE5937, 2px -1px 0px #CE5937, -2px 2px 0px #CE5937, 2px 2px 0px #CE5937, 2px 2px 0px #CE5937;
+}
+
+@media screen and (max-width: 601px) {
+    img.indexMainImg {
+        min-height: 90vh;
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    div.centered {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 7vh;
+    }
+}
