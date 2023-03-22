@@ -2,7 +2,7 @@
 
 :root {
 
-    --main_color: #232750;
+    --main_color: #242324;
 }
 
 @media screen and (min-width:800px) {
@@ -100,7 +100,7 @@ nav>ul {
 }
 
 #rainbow {
-    background-color: #232750;
+    background-color: #090B3C;
     background-image: none;
 }
 
@@ -160,7 +160,7 @@ li a {
     margin-top: 5rem;
     width: 100%;
     text-align: left;
-    background-color: #232750;
+    background-color: #272957;
     border-radius: 2px;
     overflow: hidden;
     max-height: 0;

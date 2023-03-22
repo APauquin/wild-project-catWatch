@@ -14,7 +14,7 @@ section {
 article.indexGrid {
     display: grid;
     grid-template-columns: 32% 32% 32%;
-    grid-template-rows: 65px 1fr 1fr;
+    grid-template-rows: 3.05em 1fr 1fr;
     gap: 4%;
     margin: 3em 12% 3em 12%;
     max-height: 600px;
@@ -23,8 +23,7 @@ article.indexGrid {
 div.h2container {
     grid-column-start: 1;
     grid-column-end: 4;
-    background-color: #232750;
-    font-weight: 900;
+    background-color: #090B3C;
     padding: 0;
     margin: 0 0 0 0;
     color: #f3f3f3;
@@ -35,8 +34,10 @@ h2.indexH2 {
     display: flex;
     align-items: center;
     padding-left: 30px;
-    font-size: 3.5em;
+    font-size: 3em;
     text-transform: uppercase;
+    font-family: 'Iceland';
+    font-weight: 500;
 }
 
 article div.mainNewsFlash {

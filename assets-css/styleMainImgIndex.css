@@ -1,8 +1,8 @@
 img.indexMainImg {
-    min-height: 93vh;
+    max-height: 50vh;
     width: 100%;
     object-fit: cover;
-    object-position: top;
+    object-position: 25% 50%;
 }
 
 @media screen and (max-width: 601px) {
@@ -13,3 +13,17 @@ img.indexMainImg {
         object-position: top;
     }
 }
+
+.mainImgContainer {
+    position: relative;
+    text-align: center;
+  }
+
+  .centered {
+    position: absolute;
+    top: 290px;
+    right: 350px;
+    color: white;
+    font-size: 5.5vh;
+    font-weight: 400;
+  }
