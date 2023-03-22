@@ -17,51 +17,52 @@
         <section class="last-posts" id="last-posts">
             <h2>Our latest posts</h2>
             
-            <article>
+            <article class="article1">
                 <h2>Article1</h2>
+                
                 <ul>
-                        <li>
-                            <h5>Merlin:</h5>
+                        
+                            <h3>Merlin:</h3>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                             </p>
-                        </li>
+                        
                          
                     </ul>
             </article>
-            <article>
+            <article class="article2">
                 <h2>Article2</h2>
                  <ul>
-                        <li>
-                            <h5>Perceval:</h5>
+                        
+                            <h3>Perceval:</h3>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                             </p>
-                        </li>
+                        
                          
                     </ul>
             </article>
-            <article>
+            <article class="article3">
                 <h2>Article3</h2>
                  <ul>
-                        <li>
-                            <h5>Nimue:</h5>
+                        
+                            <h3>Nimue:</h3>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                             </p>
-                        </li>
+                        
                          
                     </ul>
             </article>
-            <article>
+            <article class="article4">
                 <h2>Article4</h2>
                  <ul>
-                        <li>
-                            <h5>Phoebe:</h5>
+                        
+                            <h3>Phoebe:</h3>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                             </p>
-                        </li>
+                        
                          
                     </ul>
             </article>
