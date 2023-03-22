@@ -1,22 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Iceland&family=Zen+Tokyo+Zoo&display=swap");
 
-body.adviceBody {
+.adviceBody {
   margin: 0;
-  background-color: #e4e4e4;
+  background-color: #e0f8fe;
 }
 
 /* ***********TITRE + IMAGE*************** */
 
-h2.adviceH2 {
-  background-image: url(https://st4.depositphotos.com/1000423/22900/i/600/depositphotos_229009450-stock-photo-first-trip-to-space-mixed.jpg);
+
+.adviceH2 {
+  background-image: url(../assets-img/adviceh2img.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
-  height: 10rem;
+  background-size: cover;
+  height: 20rem;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  font-size: 2.5rem;
   color: #fefacc;
   font-family: "Zen Tokyo Zoo", cursive;
   font-weight: normal;
@@ -25,47 +27,93 @@ h2.adviceH2 {
 
 /* ***************MAIN******************** */
 
-.intro {
+.adviceIntro {
   font-weight: bold;
-  padding-bottom: 1rem;
+  font-size: 120%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
-.main {
+.adviceMain {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: grid;
+  grid-template-columns: 100%;
   margin-left: auto;
   margin-right: auto;
   line-height: 2rem;
   max-width: 120ch;
 }
-.conclusion {
-  margin-top: 0;
+.adviceConclusion {
+  font-size: 120%;
   font-weight: bold;
+}
+.advice1, .advice2, .advice3, .advice4, .advice5 {
+  padding: 3rem;
+  margin-right: 1rem;
+  line-height: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: -10px 5px 5px grey;
+  padding: 10px;
+  margin-bottom: 3rem;
+}
+.adviceMain img{
+  width: 15rem;
+  height: 15rem;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.leftimg{
+  margin-right: 1rem;
+}
+.rightimg{
+  margin-left: 1rem;
 }
 
 /* ************RESPONSIVE********* */
 
 /* MOBILE */
 
-@media screen and (max-width: 480px) {
-  .main {
-    margin-left: 1rem;
-    margin-right: 1rem;
+@media screen and (max-width: 600px) {
+  .adviceMain {
+   margin-left: 2rem;
+   margin-right: 2rem;
+   
+  }
+  .advice1, .advice2, .advice3, .advice4, .advice5 {
+    display: flex;
+    flex-direction: column; 
+}
+.adviceMain img{
+    width: 10rem;
+    height: 10rem;
   }
 }
 
-/* TABLET */
+
+/******************** TABLET *******************/
+
 
 @media screen and (min-width: 480px) and (max-width: 1024px) {
-  .main {
+  .adviceMain {
     margin-left: 2rem;
     margin-right: 2rem;
   }
 }
 
-/* DESKTOP */
+
+/***************** DESKTOP ********************/
+
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
-  .main {
+ .adviceMain {
     margin-left: 3rem;
     margin-right: 3rem;
+    font-size: 1.25rem;
   }
 }
