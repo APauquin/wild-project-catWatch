@@ -114,7 +114,7 @@
         <article class="indexGrid">
 
             <div class="h2container">
-                <h2 class="indexH2">Chatstronaute</h2>
+                <h2 id="rainbow6" class="indexH2">Chatstronaute</h2>
             </div>
 
             <div class="mainNewsFlash" class="image">
@@ -194,7 +194,7 @@
         <!-- Chatbot -->
         <article class="indexGrid">
 
-            <div class="h2container">
+            <div id="rainbow7" class="h2container">
                 <h2 class="indexH2">Chatbot</h2>
             </div>
 
@@ -275,7 +275,7 @@
         <!-- Chaliennes sexy -->
         <article class="indexGrid">
 
-            <div class="h2container">
+            <div id="rainbow8" class="h2container">
                 <h2 class="indexH2">Chatliennes</h2>
             </div>
 
@@ -357,7 +357,7 @@
     <!-- end of article list -->
 
     <!-- footer starts here -->
-
+    <button type="button" id="nyanpc"onclick ="colorRainbow(); changeImagepc(); colorainbow2();">&#128008;</button>
     <?php include("./assets-php/footer.php"); ?>
 
     <!-- end of footer -->
@@ -365,118 +365,5 @@
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <!-- Tu aimes les chattes poilues? Moi aussi. -->
