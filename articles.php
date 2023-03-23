@@ -11,16 +11,21 @@
     <title>Cat Watch</title>
 </head>
 <body>
-    
+     <!-- nav bar starts here -->
+
+     <?php include("./assets-php/navBar.php"); ?>
+
+<!-- nav bar ends here-->
+
     <section class="sectionArticles">
     
         <section class="last-posts" id="last-posts">
             <h2>Our latest posts</h2>
             
-            <article class="article1">
+            <article class="articles">
                 <h2>Article1</h2>
                 
-                <ul>
+                <ul class="list">
                         
                             <h3 class="articlesH3">Merlin:</h3>
                             <p>
@@ -30,9 +35,9 @@
                          
                     </ul>
             </article>
-            <article class="article2">
+            <article class="articles">
                 <h2>Article2</h2>
-                 <ul>
+                 <ul class="list">
                         
                             <h3>Perceval:</h3>
                             <p>
@@ -42,9 +47,9 @@
                          
                     </ul>
             </article>
-            <article class="article3">
+            <article class="articles">
                 <h2>Article3</h2>
-                 <ul>
+                 <ul class="list">
                         
                             <h3>Nimue:</h3>
                             <p>
@@ -54,9 +59,9 @@
                          
                     </ul>
             </article>
-            <article class="article4">
+            <article class="articles">
                 <h2>Article4</h2>
-                 <ul>
+                 <ul class="list">
                         
                             <h3>Phoebe:</h3>
                             <p>
@@ -68,5 +73,10 @@
             </article>
         </section>
     <!-- end of article list -->
+    <!-- footer starts here -->
+
+    <?php include("./assets-php/footer.php"); ?>
+
+    <!-- end of footer -->
 </body>
 </html>
