@@ -1,16 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Iceland&family=Zen+Tokyo+Zoo&display=swap");
 
 h2.contactH2 {
-  background-image: url(https://cdn.discordapp.com/attachments/1083297855227314218/1083399198508056608/CAT_IMAGE.webp);
+  background-image: url(https://img.freepik.com/photos-premium/chat-robot-illustration-numerique-portrait-chat-curieux-robotique-futuriste-personnage-chat-si-fi_510654-333.jpg?w=1800);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
-  height: 10rem;
+  height: 20rem;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   color: #fefacc;
   font-family: "Zen Tokyo Zoo", cursive;
+  font-size: 3.5rem;
   font-weight: normal;
   margin-top: 0;
 }
@@ -22,7 +24,7 @@ h2.contactH2 {
   }
   
   body.contactBody, button.app-form-button, input {
-    font-family: 'Island';
+    font-family: 'Iceland';
     font-weight: 40px;
     letter-spacing: 1.4px;
   }
@@ -41,7 +43,7 @@ h2.contactH2 {
   
   .screen {
     position: relative;
-    background: #d7d6d6;
+    background: #e5e5e5;
     border-radius: 15px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.15);
   }
@@ -76,7 +78,7 @@ h2.contactH2 {
     bottom: -10px;
     width: 65px;
     height: 4px;
-    background: #ffb144;
+    background: #f8cf95;
   }
   
   .app-contact {
@@ -152,9 +154,12 @@ h2.contactH2 {
     .app-title:after {
       display: none;
     }
+    .contacth3 {
+      padding : 1rem;
+    }
   }
   
-  @media screen and (max-width: 600px) {
+  /*@media screen and (max-width: 600px) {
     .screen-body {
       padding: 0px;
     }
@@ -162,11 +167,13 @@ h2.contactH2 {
     .screen-body-item {
       padding: 0;
     }
-  }
+  }*/
 
 h3.contactH3 {
     display: flex;
     justify-content: space-around;
+    max-width: auto;
+    height : 100px;
   }
 
   
