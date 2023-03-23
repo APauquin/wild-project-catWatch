@@ -31,7 +31,7 @@
             <div class="screen-body-item">
               <div class="app-form">
                 <div class="app-form-group">
-                  <input class="app-form-control" placeholder="NAME" value="Name">
+                  <input class="app-form-control" placeholder="NAME">
                 </div>
                 <div class="app-form-group">
                   <input class="app-form-control" placeholder="EMAIL">
@@ -53,9 +53,9 @@
 </body>
 
 <h3 class="contactH3">
-  <img src="https://fakeimg.pl/100x100/">
-  <img src="https://fakeimg.pl/100x100/">
-  <img src="https://fakeimg.pl/100x100/">
-  <img src="https://fakeimg.pl/100x100/">
-  <img src="https://fakeimg.pl/100x100/">
+  <img src="https://media-cdn.tripadvisor.com/media/photo-m/1280/20/92/cd/fb/logo-mcdonald-s.jpg">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Fiat_Automobiles_logo.svg/240px-Fiat_Automobiles_logo.svg.png">
+  <img src="https://blog.routinehub.co/content/images/2023/02/openAI-chat-gpt-1.jpg">
+  <img src="https://cdn.worldvectorlogo.com/logos/friskies.svg">
+  <img src="assets-img/Jf.png">
 </h3>
