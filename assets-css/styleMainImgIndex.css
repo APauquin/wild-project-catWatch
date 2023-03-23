@@ -3,6 +3,7 @@ img.indexMainImg {
     width: 100%;
     object-fit: cover;
     object-position: 25% 50%;
+    margin-bottom: 2em;
 }
 
 div.mainImgContainer {

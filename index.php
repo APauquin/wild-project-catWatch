@@ -13,7 +13,7 @@
 
 <!-- media screen width start for mobile = 900px -->
 
-<body id="rainbow5" >
+<body id="rainbow5">
 
     <!-- WE MUST SET SIZES FOR EVERYTHING TO ENSURE FLUID IMPLEMENTATION -->
 
@@ -23,6 +23,7 @@
 
     <!-- nav bar ends here-->
     <?php include("./assets-php/mainImgIndex.php"); ?>
+
     <!-- article list -->
     <section class="indexSection">
 
@@ -34,81 +35,107 @@
                 <h2 class="indexH2" id="rainbow4">Chattearoulette</h2>
             </div>
 
-
-            <div class="mainNewsFlash" class="image">
-                <img class="mainImg" src="./assets-img/cat-wagon.jpeg" alt="Cute handicapped cat with a wheeled contraption attached to its body, allowing it to move freely!">
-                <div class="mainNewsFlashContent">
-                    <p class="date">17/06/2599</p>
-                    <h3 class="mainFlashTitle">Cats with wheels reported to be far cooler</h3>
-                    <p class="newsFlashText">
-                        Experts say these new 4x4 cats will soon out perform the earlier variants of cat in both style and
-                        speed.
-                        This news has alarmed the public and set off a chain of armed revolts across the globe.
-                        Estimated death-toll already surpassing the millions globally.
-                        What a dark day to be alive.
-                        Suspendisse potenti. Praesent justo nisi, consectetur ac velit ac, ornare egestas urna. Praesent ultrices nisl ligula, quis pulvinar arcu facilisis et. Aliquam rhoncus lacus diam, at pharetra tellus ornare at. Curabitur pharetra, orci eget placerat egestas, eros mauris placerat est, sit amet blandit felis erat nec mi. Aliquam erat volutpat. Ut in porttitor velit.
-                    </p>
+            <div class="mainNewsFlash" class="image" data-card="">
+                <div class="mainNewsFlashContainer">
+                    <div class="mainImgContainerIndex">
+                        <img class="mainImg" src="./assets-img/cat-wagon.jpeg" alt="Cute handicapped cat with a wheeled contraption attached to its body, allowing it to move freely!">
+                    </div>
+                    <div class="mainNewsFlashContent">
+                        <p class="date">17/06/2599</p>
+                        <h3 class="mainFlashTitle">Cats with wheels reported to be far cooler</h3>
+                        <p class="newsFlashText">
+                            Experts say these new 4x4 cats will soon out perform the earlier variants of cat in both style and
+                            speed.
+                            This news has alarmed the public and set off a chain of armed revolts across the globe.
+                            Estimated death-toll already surpassing the millions globally.
+                            What a dark day to be alive.
+                            Suspendisse potenti. Praesent justo nisi, consectetur ac velit ac, ornare egestas urna. Praesent ultrices nisl ligula, quis pulvinar arcu facilisis et. Aliquam rhoncus lacus diam, at pharetra tellus ornare at. Curabitur pharetra, orci eget placerat egestas, eros mauris placerat est, sit amet blandit felis erat nec mi. Aliquam erat volutpat. Ut in porttitor velit.
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <div class="newsFlash">
-                <img class="secondaryImg" src="./assets-img/catWheel.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
-                <div class="newsFlashContent">
-                    <p class="date">15/06/2599</p>
-                    <h3 class="flashTitle">Cats spotted training on tread mills</h3>
-                    <p class="newsFlashText">
-                        Cats worldwide have begun rigorous cardiovascular training programs.
-                        Experts say cats have begun these exercises in order to hunt down children more efficiently.
-                        A 30% net increase in child mortality is expected in the years to come.
-                        Cat owners assure the public they're "just playing".
-                    </p>
+            <div class="newsFlash" data-card="">
+                <div class="newsFlashContainer">
+                    <div class="imgContainerIndex">
+                        <img class="secondaryImg" src="./assets-img/catWheel.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
+                    </div>
+                    <div class="newsFlashContent">
+                        <p class="date">15/06/2599</p>
+                        <h3 class="flashTitle">Cats spotted training on tread mills</h3>
+                        <p class="newsFlashText">
+                            Cats worldwide have begun rigorous cardiovascular training programs.
+                            Experts say cats have begun these exercises in order to hunt down children more efficiently.
+                            A 30% net increase in child mortality is expected in the years to come.
+                            Cat owners assure the public they're "just playing".
+                            Suspendisse potenti. Praesent justo nisi, consectetur ac velit ac, ornare egestas urna. Praesent ultrices nisl ligula, quis pulvinar arcu facilisis et. Aliquam rhoncus lacus diam, at pharetra tellus ornare at. Curabitur pharetra, orci eget placerat egestas, eros mauris placerat est, sit amet blandit felis erat nec mi. Aliquam erat volutpat. Ut in porttitor velit.
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <div class="newsFlash">
-                <img class="secondaryImg" src="./assets-img/catWheel.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
-                <div class="newsFlashContent">
-                    <p class="date">15/06/2599</p>
-                    <h3 class="flashTitle">Cats spotted training on tread mills</h3>
-                    <p class="newsFlashText">
-                        Cats worldwide have begun rigorous cardiovascular training programs.
-                        Experts say cats have begun these exercises in order to hunt down children more efficiently.
-                        A 30% net increase in child mortality is expected in the years to come.
-                        Cat owners assure the public they're "just playing".
-                    </p>
+            <div class="newsFlash" data-card="">
+                <div class="newsFlashContainer">
+                    <div class="imgContainerIndex">
+                        <img class="secondaryImg" src="./assets-img/catWheel.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
+                    </div>
+                    <div class="newsFlashContent">
+                        <p class="date">15/06/2599</p>
+                        <h3 class="flashTitle">Cats spotted training on tread mills</h3>
+                        <p class="newsFlashText">
+                            Cats worldwide have begun rigorous cardiovascular training programs.
+                            Experts say cats have begun these exercises in order to hunt down children more efficiently.
+                            A 30% net increase in child mortality is expected in the years to come.
+                            Cat owners assure the public they're "just playing".
+                            Suspendisse potenti. Praesent justo nisi, consectetur ac velit ac, ornare egestas urna. Praesent ultrices nisl ligula, quis pulvinar arcu facilisis et. Aliquam rhoncus lacus diam, at pharetra tellus ornare at. Curabitur pharetra, orci eget placerat egestas, eros mauris placerat est, sit amet blandit felis erat nec mi. Aliquam erat volutpat. Ut in porttitor velit.
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <div class="newsFlash">
-                <img class="secondaryImg" src="./assets-img/catWheel.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
-                <div class="newsFlashContent">
-                    <p class="date">15/06/2599</p>
-                    <h3 class="flashTitle">Cats spotted training on tread mills</h3>
-                    <p class="newsFlashText">
-                        Cats worldwide have begun rigorous cardiovascular training programs.
-                        Experts say cats have begun these exercises in order to hunt down children more efficiently.
-                        A 30% net increase in child mortality is expected in the years to come.
-                        Cat owners assure the public they're "just playing".
-                    </p>
+            <div class="newsFlash" data-card="">
+                <div class="newsFlashContainer">
+                    <div class="imgContainerIndex">
+                        <img class="secondaryImg" src="./assets-img/catWheel.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
+                    </div>
+                    <div class="newsFlashContent">
+                        <p class="date">15/06/2599</p>
+                        <h3 class="flashTitle">Cats spotted training on tread mills</h3>
+                        <p class="newsFlashText">
+                            Cats worldwide have begun rigorous cardiovascular training programs.
+                            Experts say cats have begun these exercises in order to hunt down children more efficiently.
+                            A 30% net increase in child mortality is expected in the years to come.
+                            Cat owners assure the public they're "just playing".
+                            Suspendisse potenti. Praesent justo nisi, consectetur ac velit ac, ornare egestas urna. Praesent ultrices nisl ligula, quis pulvinar arcu facilisis et. Aliquam rhoncus lacus diam, at pharetra tellus ornare at. Curabitur pharetra, orci eget placerat egestas, eros mauris placerat est, sit amet blandit felis erat nec mi. Aliquam erat volutpat. Ut in porttitor velit.
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <div class="newsFlash">
-                <img class="secondaryImg" src="./assets-img/catWheel.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
-                <div class="newsFlashContent">
-                    <p class="date">15/06/2599</p>
-                    <h3 class="flashTitle">Cats spotted training on tread mills</h3>
-                    <p class="newsFlashText">
-                        Cats worldwide have begun rigorous cardiovascular training programs.
-                        Experts say cats have begun these exercises in order to hunt down children more efficiently.
-                        A 30% net increase in child mortality is expected in the years to come.
-                        Cat owners assure the public they're "just playing".
-                    </p>
+            <div class="newsFlash" data-card="">
+                <div class="newsFlashContainer">
+                    <div class="imgContainerIndex">
+                        <img class="secondaryImg" src="./assets-img/catWheel.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
+                    </div>
+                    <div class="newsFlashContent">
+                        <p class="date">15/06/2599</p>
+                        <h3 class="flashTitle">Cats spotted training on tread mills</h3>
+                        <p class="newsFlashText">
+                            Cats worldwide have begun rigorous cardiovascular training programs.
+                            Experts say cats have begun these exercises in order to hunt down children more efficiently.
+                            A 30% net increase in child mortality is expected in the years to come.
+                            Cat owners assure the public they're "just playing".
+                            Suspendisse potenti. Praesent justo nisi, consectetur ac velit ac, ornare egestas urna. Praesent ultrices nisl ligula, quis pulvinar arcu facilisis et. Aliquam rhoncus lacus diam, at pharetra tellus ornare at. Curabitur pharetra, orci eget placerat egestas, eros mauris placerat est, sit amet blandit felis erat nec mi. Aliquam erat volutpat. Ut in porttitor velit.
+                        </p>
+                    </div>
                 </div>
             </div>
 
         </article>
 
+        <div class="buttonContainerIndex">
+            <button class="buttonIndex">More...</button>
+        </div>
 
         <!-- Chatstronaute -->
         <article class="indexGrid">
@@ -117,79 +144,106 @@
                 <h2 class="indexH2">Chatstronaute</h2>
             </div>
 
-            <div class="mainNewsFlash" class="image">
-                <img class="mainImg" src="./assets-img/cat-wagon.jpeg" alt="Cute handicapped cat with a wheeled contraption attached to its body, allowing it to move freely!">
-                <div class="mainNewsFlashContent">
-                    <p class="date">17/06/2599</p>
-                    <h3 class="mainFlashTitle">Cats with wheels reported to be far cooler</h3>
-                    <p class="newsFlashText">
-                        Experts say these new 4x4 cats will soon out perform the earlier variants of cat in both style and
-                        speed.
-                        This news has alarmed the public and set off a chain of armed revolts across the globe.
-                        Estimated death-toll already surpassing the millions globally.
-                        What a dark day to be alive.
-                        Suspendisse potenti. Praesent justo nisi, consectetur ac velit ac, ornare egestas urna. Praesent ultrices nisl ligula, quis pulvinar arcu facilisis et. Aliquam rhoncus lacus diam, at pharetra tellus ornare at. Curabitur pharetra, orci eget placerat egestas, eros mauris placerat est, sit amet blandit felis erat nec mi. Aliquam erat volutpat. Ut in porttitor velit.
-                    </p>
+            <div class="mainNewsFlash" class="image" data-card="">
+                <div class="mainNewsFlashContainer">
+                    <div class="mainImgContainerIndex">
+                        <img class="mainImg" src="./assets-img/cat-wagon.jpeg" alt="Cute handicapped cat with a wheeled contraption attached to its body, allowing it to move freely!">
+                    </div>
+                    <div class="mainNewsFlashContent">
+                        <p class="date">17/06/2599</p>
+                        <h3 class="mainFlashTitle">Cats with wheels reported to be far cooler</h3>
+                        <p class="newsFlashText">
+                            Experts say these new 4x4 cats will soon out perform the earlier variants of cat in both style and
+                            speed.
+                            This news has alarmed the public and set off a chain of armed revolts across the globe.
+                            Estimated death-toll already surpassing the millions globally.
+                            What a dark day to be alive.
+                            Suspendisse potenti. Praesent justo nisi, consectetur ac velit ac, ornare egestas urna. Praesent ultrices nisl ligula, quis pulvinar arcu facilisis et. Aliquam rhoncus lacus diam, at pharetra tellus ornare at. Curabitur pharetra, orci eget placerat egestas, eros mauris placerat est, sit amet blandit felis erat nec mi. Aliquam erat volutpat. Ut in porttitor velit.
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <div class="newsFlash">
-                <img class="secondaryImg" src="./assets-img/catWheel.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
-                <div class="newsFlashContent">
-                    <p class="date">15/06/2599</p>
-                    <h3 class="flashTitle">Cats spotted training on tread mills</h3>
-                    <p class="newsFlashText">
-                        Cats worldwide have begun rigorous cardiovascular training programs.
-                        Experts say cats have begun these exercises in order to hunt down children more efficiently.
-                        A 30% net increase in child mortality is expected in the years to come.
-                        Cat owners assure the public they're "just playing".
-                    </p>
+            <div class="newsFlash" data-card="">
+                <div class="newsFlashContainer">
+                    <div class="imgContainerIndex">
+                        <img class="secondaryImg" src="./assets-img/catWheel.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
+                    </div>
+                    <div class="newsFlashContent">
+                        <p class="date">15/06/2599</p>
+                        <h3 class="flashTitle">Cats spotted training on tread mills</h3>
+                        <p class="newsFlashText">
+                            Cats worldwide have begun rigorous cardiovascular training programs.
+                            Experts say cats have begun these exercises in order to hunt down children more efficiently.
+                            A 30% net increase in child mortality is expected in the years to come.
+                            Cat owners assure the public they're "just playing".
+                            Suspendisse potenti. Praesent justo nisi, consectetur ac velit ac, ornare egestas urna. Praesent ultrices nisl ligula, quis pulvinar arcu facilisis et. Aliquam rhoncus lacus diam, at pharetra tellus ornare at. Curabitur pharetra, orci eget placerat egestas, eros mauris placerat est, sit amet blandit felis erat nec mi. Aliquam erat volutpat. Ut in porttitor velit.
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <div class="newsFlash">
-                <img class="secondaryImg" src="./assets-img/catWheel.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
-                <div class="newsFlashContent">
-                    <p class="date">15/06/2599</p>
-                    <h3 class="flashTitle">Cats spotted training on tread mills</h3>
-                    <p class="newsFlashText">
-                        Cats worldwide have begun rigorous cardiovascular training programs.
-                        Experts say cats have begun these exercises in order to hunt down children more efficiently.
-                        A 30% net increase in child mortality is expected in the years to come.
-                        Cat owners assure the public they're "just playing".
-                    </p>
+            <div class="newsFlash" data-card="">
+                <div class="newsFlashContainer">
+                    <div class="imgContainerIndex">
+                        <img class="secondaryImg" src="./assets-img/catWheel.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
+                    </div>
+                    <div class="newsFlashContent">
+                        <p class="date">15/06/2599</p>
+                        <h3 class="flashTitle">Cats spotted training on tread mills</h3>
+                        <p class="newsFlashText">
+                            Cats worldwide have begun rigorous cardiovascular training programs.
+                            Experts say cats have begun these exercises in order to hunt down children more efficiently.
+                            A 30% net increase in child mortality is expected in the years to come.
+                            Cat owners assure the public they're "just playing".
+                            Suspendisse potenti. Praesent justo nisi, consectetur ac velit ac, ornare egestas urna. Praesent ultrices nisl ligula, quis pulvinar arcu facilisis et. Aliquam rhoncus lacus diam, at pharetra tellus ornare at. Curabitur pharetra, orci eget placerat egestas, eros mauris placerat est, sit amet blandit felis erat nec mi. Aliquam erat volutpat. Ut in porttitor velit.
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <div class="newsFlash">
-                <img class="secondaryImg" src="./assets-img/catWheel.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
-                <div class="newsFlashContent">
-                    <p class="date">15/06/2599</p>
-                    <h3 class="flashTitle">Cats spotted training on tread mills</h3>
-                    <p class="newsFlashText">
-                        Cats worldwide have begun rigorous cardiovascular training programs.
-                        Experts say cats have begun these exercises in order to hunt down children more efficiently.
-                        A 30% net increase in child mortality is expected in the years to come.
-                        Cat owners assure the public they're "just playing".
-                    </p>
+            <div class="newsFlash" data-card="">
+                <div class="newsFlashContainer">
+                    <div class="imgContainerIndex">
+                        <img class="secondaryImg" src="./assets-img/catWheel.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
+                    </div>
+                    <div class="newsFlashContent">
+                        <p class="date">15/06/2599</p>
+                        <h3 class="flashTitle">Cats spotted training on tread mills</h3>
+                        <p class="newsFlashText">
+                            Cats worldwide have begun rigorous cardiovascular training programs.
+                            Experts say cats have begun these exercises in order to hunt down children more efficiently.
+                            A 30% net increase in child mortality is expected in the years to come.
+                            Cat owners assure the public they're "just playing".
+                            Suspendisse potenti. Praesent justo nisi, consectetur ac velit ac, ornare egestas urna. Praesent ultrices nisl ligula, quis pulvinar arcu facilisis et. Aliquam rhoncus lacus diam, at pharetra tellus ornare at. Curabitur pharetra, orci eget placerat egestas, eros mauris placerat est, sit amet blandit felis erat nec mi. Aliquam erat volutpat. Ut in porttitor velit.
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <div class="newsFlash">
-                <img class="secondaryImg" src="./assets-img/catWheel.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
-                <div class="newsFlashContent">
-                    <p class="date">15/06/2599</p>
-                    <h3 class="flashTitle">Cats spotted training on tread mills</h3>
-                    <p class="newsFlashText">
-                        Cats worldwide have begun rigorous cardiovascular training programs.
-                        Experts say cats have begun these exercises in order to hunt down children more efficiently.
-                        A 30% net increase in child mortality is expected in the years to come.
-                        Cat owners assure the public they're "just playing".
-                    </p>
+            <div class="newsFlash" data-card="">
+                <div class="newsFlashContainer">
+                    <div class="imgContainerIndex">
+                        <img class="secondaryImg" src="./assets-img/catWheel.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
+                    </div>
+                    <div class="newsFlashContent">
+                        <p class="date">15/06/2599</p>
+                        <h3 class="flashTitle">Cats spotted training on tread mills</h3>
+                        <p class="newsFlashText">
+                            Cats worldwide have begun rigorous cardiovascular training programs.
+                            Experts say cats have begun these exercises in order to hunt down children more efficiently.
+                            A 30% net increase in child mortality is expected in the years to come.
+                            Cat owners assure the public they're "just playing".
+                            Suspendisse potenti. Praesent justo nisi, consectetur ac velit ac, ornare egestas urna. Praesent ultrices nisl ligula, quis pulvinar arcu facilisis et. Aliquam rhoncus lacus diam, at pharetra tellus ornare at. Curabitur pharetra, orci eget placerat egestas, eros mauris placerat est, sit amet blandit felis erat nec mi. Aliquam erat volutpat. Ut in porttitor velit.
+                        </p>
+                    </div>
                 </div>
             </div>
         </article>
 
+        <div class="buttonContainerIndex">
+            <button class="buttonIndex">More...</button>
+        </div>
 
         <!-- Chatbot -->
         <article class="indexGrid">
@@ -198,79 +252,106 @@
                 <h2 class="indexH2">Chatbot</h2>
             </div>
 
-            <div class="mainNewsFlash" class="image">
-                <img class="mainImg" src="./assets-img/cat-wagon.jpeg" alt="Cute handicapped cat with a wheeled contraption attached to its body, allowing it to move freely!">
-                <div class="mainNewsFlashContent">
-                    <p class="date">17/06/2599</p>
-                    <h3 class="mainFlashTitle">Cats with wheels reported to be far cooler</h3>
-                    <p class="newsFlashText">
-                        Experts say these new 4x4 cats will soon out perform the earlier variants of cat in both style and
-                        speed.
-                        This news has alarmed the public and set off a chain of armed revolts across the globe.
-                        Estimated death-toll already surpassing the millions globally.
-                        What a dark day to be alive.
-                        Suspendisse potenti. Praesent justo nisi, consectetur ac velit ac, ornare egestas urna. Praesent ultrices nisl ligula, quis pulvinar arcu facilisis et. Aliquam rhoncus lacus diam, at pharetra tellus ornare at. Curabitur pharetra, orci eget placerat egestas, eros mauris placerat est, sit amet blandit felis erat nec mi. Aliquam erat volutpat. Ut in porttitor velit.
-                    </p>
+            <div class="mainNewsFlash" class="image" data-card="">
+                <div class="mainNewsFlashContainer">
+                    <div class="mainImgContainerIndex">
+                        <img class="mainImg" src="./assets-img/cat-wagon.jpeg" alt="Cute handicapped cat with a wheeled contraption attached to its body, allowing it to move freely!">
+                    </div>
+                    <div class="mainNewsFlashContent">
+                        <p class="date">17/06/2599</p>
+                        <h3 class="mainFlashTitle">Cats with wheels reported to be far cooler</h3>
+                        <p class="newsFlashText">
+                            Experts say these new 4x4 cats will soon out perform the earlier variants of cat in both style and
+                            speed.
+                            This news has alarmed the public and set off a chain of armed revolts across the globe.
+                            Estimated death-toll already surpassing the millions globally.
+                            What a dark day to be alive.
+                            Suspendisse potenti. Praesent justo nisi, consectetur ac velit ac, ornare egestas urna. Praesent ultrices nisl ligula, quis pulvinar arcu facilisis et. Aliquam rhoncus lacus diam, at pharetra tellus ornare at. Curabitur pharetra, orci eget placerat egestas, eros mauris placerat est, sit amet blandit felis erat nec mi. Aliquam erat volutpat. Ut in porttitor velit.
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <div class="newsFlash">
-                <img class="secondaryImg" src="./assets-img/catWheel.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
-                <div class="newsFlashContent">
-                    <p class="date">15/06/2599</p>
-                    <h3 class="flashTitle">Cats spotted training on tread mills</h3>
-                    <p class="newsFlashText">
-                        Cats worldwide have begun rigorous cardiovascular training programs.
-                        Experts say cats have begun these exercises in order to hunt down children more efficiently.
-                        A 30% net increase in child mortality is expected in the years to come.
-                        Cat owners assure the public they're "just playing".
-                    </p>
+            <div class="newsFlash" data-card="">
+                <div class="newsFlashContainer">
+                    <div class="imgContainerIndex">
+                        <img class="secondaryImg" src="./assets-img/catWheel.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
+                    </div>
+                    <div class="newsFlashContent">
+                        <p class="date">15/06/2599</p>
+                        <h3 class="flashTitle">Cats spotted training on tread mills</h3>
+                        <p class="newsFlashText">
+                            Cats worldwide have begun rigorous cardiovascular training programs.
+                            Experts say cats have begun these exercises in order to hunt down children more efficiently.
+                            A 30% net increase in child mortality is expected in the years to come.
+                            Cat owners assure the public they're "just playing".
+                            Suspendisse potenti. Praesent justo nisi, consectetur ac velit ac, ornare egestas urna. Praesent ultrices nisl ligula, quis pulvinar arcu facilisis et. Aliquam rhoncus lacus diam, at pharetra tellus ornare at. Curabitur pharetra, orci eget placerat egestas, eros mauris placerat est, sit amet blandit felis erat nec mi. Aliquam erat volutpat. Ut in porttitor velit.
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <div class="newsFlash">
-                <img class="secondaryImg" src="./assets-img/catWheel.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
-                <div class="newsFlashContent">
-                    <p class="date">15/06/2599</p>
-                    <h3 class="flashTitle">Cats spotted training on tread mills</h3>
-                    <p class="newsFlashText">
-                        Cats worldwide have begun rigorous cardiovascular training programs.
-                        Experts say cats have begun these exercises in order to hunt down children more efficiently.
-                        A 30% net increase in child mortality is expected in the years to come.
-                        Cat owners assure the public they're "just playing".
-                    </p>
+            <div class="newsFlash" data-card="">
+                <div class="newsFlashContainer">
+                    <div class="imgContainerIndex">
+                        <img class="secondaryImg" src="./assets-img/catWheel.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
+                    </div>
+                    <div class="newsFlashContent">
+                        <p class="date">15/06/2599</p>
+                        <h3 class="flashTitle">Cats spotted training on tread mills</h3>
+                        <p class="newsFlashText">
+                            Cats worldwide have begun rigorous cardiovascular training programs.
+                            Experts say cats have begun these exercises in order to hunt down children more efficiently.
+                            A 30% net increase in child mortality is expected in the years to come.
+                            Cat owners assure the public they're "just playing".
+                            Suspendisse potenti. Praesent justo nisi, consectetur ac velit ac, ornare egestas urna. Praesent ultrices nisl ligula, quis pulvinar arcu facilisis et. Aliquam rhoncus lacus diam, at pharetra tellus ornare at. Curabitur pharetra, orci eget placerat egestas, eros mauris placerat est, sit amet blandit felis erat nec mi. Aliquam erat volutpat. Ut in porttitor velit.
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <div class="newsFlash">
-                <img class="secondaryImg" src="./assets-img/catWheel.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
-                <div class="newsFlashContent">
-                    <p class="date">15/06/2599</p>
-                    <h3 class="flashTitle">Cats spotted training on tread mills</h3>
-                    <p class="newsFlashText">
-                        Cats worldwide have begun rigorous cardiovascular training programs.
-                        Experts say cats have begun these exercises in order to hunt down children more efficiently.
-                        A 30% net increase in child mortality is expected in the years to come.
-                        Cat owners assure the public they're "just playing".
-                    </p>
+            <div class="newsFlash" data-card="">
+                <div class="newsFlashContainer">
+                    <div class="imgContainerIndex">
+                        <img class="secondaryImg" src="./assets-img/catWheel.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
+                    </div>
+                    <div class="newsFlashContent">
+                        <p class="date">15/06/2599</p>
+                        <h3 class="flashTitle">Cats spotted training on tread mills</h3>
+                        <p class="newsFlashText">
+                            Cats worldwide have begun rigorous cardiovascular training programs.
+                            Experts say cats have begun these exercises in order to hunt down children more efficiently.
+                            A 30% net increase in child mortality is expected in the years to come.
+                            Cat owners assure the public they're "just playing".
+                            Suspendisse potenti. Praesent justo nisi, consectetur ac velit ac, ornare egestas urna. Praesent ultrices nisl ligula, quis pulvinar arcu facilisis et. Aliquam rhoncus lacus diam, at pharetra tellus ornare at. Curabitur pharetra, orci eget placerat egestas, eros mauris placerat est, sit amet blandit felis erat nec mi. Aliquam erat volutpat. Ut in porttitor velit.
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <div class="newsFlash">
-                <img class="secondaryImg" src="./assets-img/catWheel.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
-                <div class="newsFlashContent">
-                    <p class="date">15/06/2599</p>
-                    <h3 class="flashTitle">Cats spotted training on tread mills</h3>
-                    <p class="newsFlashText">
-                        Cats worldwide have begun rigorous cardiovascular training programs.
-                        Experts say cats have begun these exercises in order to hunt down children more efficiently.
-                        A 30% net increase in child mortality is expected in the years to come.
-                        Cat owners assure the public they're "just playing".
-                    </p>
+            <div class="newsFlash" data-card="">
+                <div class="newsFlashContainer">
+                    <div class="imgContainerIndex">
+                        <img class="secondaryImg" src="./assets-img/catWheel.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
+                    </div>
+                    <div class="newsFlashContent">
+                        <p class="date">15/06/2599</p>
+                        <h3 class="flashTitle">Cats spotted training on tread mills</h3>
+                        <p class="newsFlashText">
+                            Cats worldwide have begun rigorous cardiovascular training programs.
+                            Experts say cats have begun these exercises in order to hunt down children more efficiently.
+                            A 30% net increase in child mortality is expected in the years to come.
+                            Cat owners assure the public they're "just playing".
+                            Suspendisse potenti. Praesent justo nisi, consectetur ac velit ac, ornare egestas urna. Praesent ultrices nisl ligula, quis pulvinar arcu facilisis et. Aliquam rhoncus lacus diam, at pharetra tellus ornare at. Curabitur pharetra, orci eget placerat egestas, eros mauris placerat est, sit amet blandit felis erat nec mi. Aliquam erat volutpat. Ut in porttitor velit.
+                        </p>
+                    </div>
                 </div>
             </div>
         </article>
 
+        <div class="buttonContainerIndex">
+            <button class="buttonIndex">More...</button>
+        </div>
 
         <!-- Chaliennes sexy -->
         <article class="indexGrid">
@@ -279,79 +360,115 @@
                 <h2 class="indexH2">Chatliennes</h2>
             </div>
 
-            <div class="mainNewsFlash" class="image">
-                <img class="mainImg" src="./assets-img/cat-wagon.jpeg" alt="Cute handicapped cat with a wheeled contraption attached to its body, allowing it to move freely!">
-                <div class="mainNewsFlashContent">
-                    <p class="date">17/06/2599</p>
-                    <h3 class="mainFlashTitle">Cats with wheels reported to be far cooler</h3>
-                    <p class="newsFlashText">
-                        Experts say these new 4x4 cats will soon out perform the earlier variants of cat in both style and
-                        speed.
-                        This news has alarmed the public and set off a chain of armed revolts across the globe.
-                        Estimated death-toll already surpassing the millions globally.
-                        What a dark day to be alive.
-                        Suspendisse potenti. Praesent justo nisi, consectetur ac velit ac, ornare egestas urna. Praesent ultrices nisl ligula, quis pulvinar arcu facilisis et. Aliquam rhoncus lacus diam, at pharetra tellus ornare at. Curabitur pharetra, orci eget placerat egestas, eros mauris placerat est, sit amet blandit felis erat nec mi. Aliquam erat volutpat. Ut in porttitor velit.
-                    </p>
+            <div class="mainNewsFlash" class="image" data-card="">
+                <div class="mainNewsFlashContainer">
+                    <div class="mainImgContainerIndex">
+                        <img class="mainImg" src="./assets-img/cat-wagon.jpeg" alt="Cute handicapped cat with a wheeled contraption attached to its body, allowing it to move freely!">
+                    </div>
+                    <div class="mainNewsFlashContent">
+                        <p class="date">17/06/2599</p>
+                        <h3 class="mainFlashTitle">Cats with wheels reported to be far cooler</h3>
+                        <p class="newsFlashText">
+                            Experts say these new 4x4 cats will soon out perform the earlier variants of cat in both style and
+                            speed.
+                            This news has alarmed the public and set off a chain of armed revolts across the globe.
+                            Estimated death-toll already surpassing the millions globally.
+                            What a dark day to be alive.
+                            Suspendisse potenti. Praesent justo nisi, consectetur ac velit ac, ornare egestas urna. Praesent ultrices nisl ligula, quis pulvinar arcu facilisis et. Aliquam rhoncus lacus diam, at pharetra tellus ornare at. Curabitur pharetra, orci eget placerat egestas, eros mauris placerat est, sit amet blandit felis erat nec mi. Aliquam erat volutpat. Ut in porttitor velit.
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <div class="newsFlash">
-                <img class="secondaryImg" src="./assets-img/catWheel.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
-                <div class="newsFlashContent">
-                    <p class="date">15/06/2599</p>
-                    <h3 class="flashTitle">Cats spotted training on tread mills</h3>
-                    <p class="newsFlashText">
-                        Cats worldwide have begun rigorous cardiovascular training programs.
-                        Experts say cats have begun these exercises in order to hunt down children more efficiently.
-                        A 30% net increase in child mortality is expected in the years to come.
-                        Cat owners assure the public they're "just playing".
-                    </p>
+            <div class="newsFlash" data-card="">
+                <div class="newsFlashContainer">
+                    <div class="imgContainerIndex">
+                        <img class="secondaryImg" src="./assets-img/catWheel.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
+                    </div>
+                    <div class="newsFlashContent">
+                        <p class="date">15/06/2599</p>
+                        <h3 class="flashTitle">Cats spotted training on tread mills</h3>
+                        <p class="newsFlashText">
+                            Cats worldwide have begun rigorous cardiovascular training programs.
+                            Experts say cats have begun these exercises in order to hunt down children more efficiently.
+                            A 30% net increase in child mortality is expected in the years to come.
+                            Cat owners assure the public they're "just playing".
+                            Suspendisse potenti. Praesent justo nisi, consectetur ac velit ac, ornare egestas urna. Praesent ultrices nisl ligula, quis pulvinar arcu facilisis et. Aliquam rhoncus lacus diam, at pharetra tellus ornare at. Curabitur pharetra, orci eget placerat egestas, eros mauris placerat est, sit amet blandit felis erat nec mi. Aliquam erat volutpat. Ut in porttitor velit.
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <div class="newsFlash">
-                <img class="secondaryImg" src="./assets-img/catWheel.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
-                <div class="newsFlashContent">
-                    <p class="date">15/06/2599</p>
-                    <h3 class="flashTitle">Cats spotted training on tread mills</h3>
-                    <p class="newsFlashText">
-                        Cats worldwide have begun rigorous cardiovascular training programs.
-                        Experts say cats have begun these exercises in order to hunt down children more efficiently.
-                        A 30% net increase in child mortality is expected in the years to come.
-                        Cat owners assure the public they're "just playing".
-                    </p>
+            <div class="newsFlash" data-card="">
+                <div class="newsFlashContainer">
+                    <div class="imgContainerIndex">
+                        <img class="secondaryImg" src="./assets-img/catWheel.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
+                    </div>
+                    <div class="newsFlashContent">
+                        <p class="date">15/06/2599</p>
+                        <h3 class="flashTitle">Cats spotted training on tread mills</h3>
+                        <p class="newsFlashText">
+                            Cats worldwide have begun rigorous cardiovascular training programs.
+                            Experts say cats have begun these exercises in order to hunt down children more efficiently.
+                            A 30% net increase in child mortality is expected in the years to come.
+                            Cat owners assure the public they're "just playing".
+                            Suspendisse potenti. Praesent justo nisi, consectetur ac velit ac, ornare egestas urna. Praesent ultrices nisl ligula, quis pulvinar arcu facilisis et. Aliquam rhoncus lacus diam, at pharetra tellus ornare at. Curabitur pharetra, orci eget placerat egestas, eros mauris placerat est, sit amet blandit felis erat nec mi. Aliquam erat volutpat. Ut in porttitor velit.
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <div class="newsFlash">
-                <img class="secondaryImg" src="./assets-img/catWheel.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
-                <div class="newsFlashContent">
-                    <p class="date">15/06/2599</p>
-                    <h3 class="flashTitle">Cats spotted training on tread mills</h3>
-                    <p class="newsFlashText">
-                        Cats worldwide have begun rigorous cardiovascular training programs.
-                        Experts say cats have begun these exercises in order to hunt down children more efficiently.
-                        A 30% net increase in child mortality is expected in the years to come.
-                        Cat owners assure the public they're "just playing".
-                    </p>
+            <div class="newsFlash" data-card="">
+                <div class="newsFlashContainer">
+                    <div class="imgContainerIndex">
+                        <img class="secondaryImg" src="./assets-img/catWheel.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
+                    </div>
+                    <div class="newsFlashContent">
+                        <p class="date">15/06/2599</p>
+                        <h3 class="flashTitle">Cats spotted training on tread mills</h3>
+                        <p class="newsFlashText">
+                            Cats worldwide have begun rigorous cardiovascular training programs.
+                            Experts say cats have begun these exercises in order to hunt down children more efficiently.
+                            A 30% net increase in child mortality is expected in the years to come.
+                            Cat owners assure the public they're "just playing".
+                            Suspendisse potenti. Praesent justo nisi, consectetur ac velit ac, ornare egestas urna. Praesent ultrices nisl ligula, quis pulvinar arcu facilisis et. Aliquam rhoncus lacus diam, at pharetra tellus ornare at. Curabitur pharetra, orci eget placerat egestas, eros mauris placerat est, sit amet blandit felis erat nec mi. Aliquam erat volutpat. Ut in porttitor velit.
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <div class="newsFlash">
-                <img class="secondaryImg" src="./assets-img/catWheel.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
-                <div class="newsFlashContent">
-                    <p class="date">15/06/2599</p>
-                    <h3 class="flashTitle">Cats spotted training on tread mills</h3>
-                    <p class="newsFlashText">
-                        Cats worldwide have begun rigorous cardiovascular training programs.
-                        Experts say cats have begun these exercises in order to hunt down children more efficiently.
-                        A 30% net increase in child mortality is expected in the years to come.
-                        Cat owners assure the public they're "just playing".
-                    </p>
+            <div class="newsFlash" data-card="">
+                <div class="newsFlashContainer">
+                    <div class="imgContainerIndex">
+                        <img class="secondaryImg" src="./assets-img/catWheel.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
+                    </div>
+                    <div class="newsFlashContent">
+                        <p class="date">15/06/2599</p>
+                        <h3 class="flashTitle">Cats spotted training on tread mills</h3>
+                        <p class="newsFlashText">
+                            Cats worldwide have begun rigorous cardiovascular training programs.
+                            Experts say cats have begun these exercises in order to hunt down children more efficiently.
+                            A 30% net increase in child mortality is expected in the years to come.
+                            Cat owners assure the public they're "just playing".
+                            Suspendisse potenti. Praesent justo nisi, consectetur ac velit ac, ornare egestas urna. Praesent ultrices nisl ligula, quis pulvinar arcu facilisis et. Aliquam rhoncus lacus diam, at pharetra tellus ornare at. Curabitur pharetra, orci eget placerat egestas, eros mauris placerat est, sit amet blandit felis erat nec mi. Aliquam erat volutpat. Ut in porttitor velit.
+                        </p>
+                    </div>
                 </div>
             </div>
         </article>
 
+        <div class="buttonContainerIndex">
+            <button class="buttonIndex">More...</button>
+        </div>
+        
+        <script>
+            const cards = document.querySelectorAll("[data-card]");
+            cards.forEach(function(elem) {
+                elem.addEventListener('click', function(event) {
+                    event.currentTarget.classList.toggle('active');
+                });
+            });
+        </script>
 
     </section>
     <!-- end of article list -->

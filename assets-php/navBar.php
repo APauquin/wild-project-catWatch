@@ -3,9 +3,9 @@
 
 </audio>
 <nav>
-    <div id="mobile"><a href "./index.php"><img id="logomobile" src="https://i.ibb.co/PCQPqty/Illustration-sans-titre-4.png" alt="Illustration-sans-titre-1" border="0"></a> </div>
+    <div id="mobile"><a href="./index.php"><img id="logomobile" src="https://i.ibb.co/PCQPqty/Illustration-sans-titre-4.png" alt="Illustration-sans-titre-1" border="0"></a> </div>
 
-    <a href "./index.php"><img id="logo" src="https://i.ibb.co/PCQPqty/Illustration-sans-titre-4.png" alt="Illustration-sans-titre-1" border="0"></a>
+    <a href="./index.php"><img id="logo" src="https://i.ibb.co/PCQPqty/Illustration-sans-titre-4.png" alt="Illustration-sans-titre-1" border="0"></a>
 
     <ul id="rainbow">
         <li id="vide"></li>
