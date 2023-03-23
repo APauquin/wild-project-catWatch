@@ -10,8 +10,8 @@
 
     <title>Cat Watch</title>
 </head>
-
-<!-- media screen width start for mobile = 900px -->
+ 
+<!-- line height / font size et des fonts communs and make titles special font  verdana et iceland-->
 
 <body id="rainbow5">
 
