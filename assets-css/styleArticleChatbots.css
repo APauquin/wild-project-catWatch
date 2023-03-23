@@ -1,0 +1,144 @@
+.bandeauChatbot {
+  background-image: url(../assets-img/articlevh2img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 20rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  color: #fefacc;
+  font-family: "Zen Tokyo Zoo", cursive;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+.articleTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 4.5rem;
+  font-family: "Iceland";
+  font-size: 3rem;
+  border: solid #090b3c 1px;
+  border-radius: 10px;
+  background-color: #090b3c;
+  color: white;
+  height: 7rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: 4.5rem;
+  margin-right: 4.5rem;
+  margin-bottom: 4.5rem;
+  align-items: center;
+}
+
+.imgContainer {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
+
+.dateArticle {
+  font-family: "Iceland";
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2e2e2d;
+}
+
+.imgArticle {
+  min-width: 15rem;
+  max-height: 50rem;
+}
+
+.articleComplete {
+  font-family: "Iceland";
+  font-size: 2rem;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.articleIntro {
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  max-width: 80ch;
+}
+.articleMain {
+  margin: 0 auto;
+  max-width: 80ch;
+}
+.articleConclu {
+  margin: 0 auto;
+  font-weight: bold;
+  max-width: 80ch;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+/* ********** RESPONSIVE *********** */
+
+/* PHONE */
+
+@media screen and (max-width: 600px) {
+  .articleTitle {
+    margin-top: 1.7rem;
+    margin-bottom: 1.7rem;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 1.8rem;
+  }
+  .imgContainer {
+    margin: 0;
+  }
+  .dateArticle {
+    margin-top: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 1.5rem;
+  }
+}
+
+/* TABLET */
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .articleTitle {
+    margin-top: 1.7rem;
+    margin-bottom: 1.7rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-size: 1.9rem;
+  }
+  .imgContainer {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+  .dateArticle {
+    margin-top: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 1.75rem;
+  }
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 900px) and (max-width: 1440px) {
+  .articleTitle {
+    margin-top: 1.7rem;
+    margin-bottom: 1.7rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    font-size: 2rem;
+  }
+  .imgContainer {
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+}
