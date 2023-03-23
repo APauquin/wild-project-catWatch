@@ -59,3 +59,9 @@
   <img src="https://cdn.worldvectorlogo.com/logos/friskies.svg">
   <img src="assets-img/Jf.png">
 </h3>
+
+<?php
+  include("assets-php/footer.php")
+  ?>
+
+</html>  
