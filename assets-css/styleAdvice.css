@@ -7,7 +7,6 @@
 
 /* ***********TITRE + IMAGE*************** */
 
-
 .adviceH2 {
   background-image: url(../assets-img/adviceh2img.jpg);
   background-repeat: no-repeat;
@@ -18,10 +17,13 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: 2.5rem;
-  color: #fefacc;
-  font-family: "Zen Tokyo Zoo", cursive;
-  font-weight: normal;
+  color: white;
+  font-size: 4rem;
+  font-weight: 400;
+  text-shadow: -2px 0px 0px #ce5937, 2px 0px 0px #ce5937, 0px 2px 0px #ce5937,
+    0px -2px 0px #ce5937, 1px -1px 0px #ce5937, -2px -2px 0px #ce5937,
+    2px -1px 0px #ce5937, -2px 2px 0px #ce5937, 2px 2px 0px #ce5937,
+    2px 2px 0px #ce5937;
   margin-top: 0;
 }
 
@@ -43,10 +45,15 @@
   max-width: 120ch;
 }
 .adviceConclusion {
+  margin-bottom: 2rem;
   font-size: 120%;
   font-weight: bold;
 }
-.advice1, .advice2, .advice3, .advice4, .advice5 {
+.advice1,
+.advice2,
+.advice3,
+.advice4,
+.advice5 {
   padding: 3rem;
   margin-right: 1rem;
   line-height: 2.5rem;
@@ -61,17 +68,17 @@
   padding: 10px;
   margin-bottom: 3rem;
 }
-.adviceMain img{
+.adviceMain img {
   width: 15rem;
   height: 15rem;
   border: 1px solid black;
   border-radius: 20px;
 }
 
-.leftimg{
+.leftimg {
   margin-right: 1rem;
 }
-.rightimg{
+.rightimg {
   margin-left: 1rem;
 }
 
@@ -81,23 +88,24 @@
 
 @media screen and (max-width: 600px) {
   .adviceMain {
-   margin-left: 2rem;
-   margin-right: 2rem;
-   
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
-  .advice1, .advice2, .advice3, .advice4, .advice5 {
+  .advice1,
+  .advice2,
+  .advice3,
+  .advice4,
+  .advice5 {
     display: flex;
-    flex-direction: column; 
-}
-.adviceMain img{
+    flex-direction: column;
+  }
+  .adviceMain img {
     width: 10rem;
     height: 10rem;
   }
 }
 
-
 /******************** TABLET *******************/
-
 
 @media screen and (min-width: 480px) and (max-width: 1024px) {
   .adviceMain {
@@ -106,12 +114,10 @@
   }
 }
 
-
 /***************** DESKTOP ********************/
 
-
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
- .adviceMain {
+  .adviceMain {
     margin-left: 3rem;
     margin-right: 3rem;
     font-size: 1.25rem;
