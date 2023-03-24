@@ -19,10 +19,11 @@ div.centered {
     top: 50%;
     left: 65%;
     transform: translate(-0%, -80%);
-    color: white;
+    font-family: "Zen Tokyo Zoo", cursive;
+    color: #fefacc;
     font-size: 5.5vh;
     font-weight: 400;
-    text-shadow: -2px 0px 0px #CE5937, 2px 0px 0px #CE5937, 0px 2px 0px #CE5937, 0px -2px 0px #CE5937, 1px -1px 0px #CE5937, -2px -2px 0px #CE5937, 2px -1px 0px #CE5937, -2px 2px 0px #CE5937, 2px 2px 0px #CE5937, 2px 2px 0px #CE5937;
+    text-shadow: -2px 0px 0px #120a08, 2px 0px 0px #CE5937, 0px 2px 0px #CE5937, 0px -2px 0px #CE5937, 1px -1px 0px #CE5
 }
 
 @media screen and (max-width: 601px) {
