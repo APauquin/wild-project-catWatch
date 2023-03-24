@@ -226,3 +226,6 @@ nav>ul>li:hover>a {
     cursor: pointer;
     opacity:0.10;
 }
+#nyanpc:hover{
+opacity: 1;
+}
