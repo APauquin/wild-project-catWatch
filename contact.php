@@ -24,14 +24,14 @@
           <div class="screen-body">
             <div class="screen-body-item left">
               <div class="app-title">
-                <span>CONTACT US</span>
+                <span>CONTACTEZ NOUS</span>
               </div>
-              <div class="app-contact">CONTACT INFO : 118 218</div>
+              <div class="app-contact">NUM INFO : 118 218</div>
             </div>
             <div class="screen-body-item">
               <div class="app-form">
                 <div class="app-form-group">
-                  <input class="app-form-control" placeholder="NAME">
+                  <input class="app-form-control" placeholder="NOM">
                 </div>
                 <div class="app-form-group">
                   <input class="app-form-control" placeholder="EMAIL">
@@ -40,8 +40,8 @@
                   <input class="app-form-control" placeholder="MESSAGE">
                 </div>
                 <div class="app-form-group buttons">
-                  <button class="app-form-button">CANCEL</button>
-                  <button class="app-form-button">SEND</button>
+                  <button class="app-form-button">ANNULER</button> </n>
+                  <button class="app-form-button">ENVOYER</button>
                 </div>
               </div>
             </div>
