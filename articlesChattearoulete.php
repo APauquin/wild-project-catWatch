@@ -111,7 +111,7 @@
 
                 </ul>
                 <div class="buttonContainerIndex">
-                    <form action="article_5.php">
+                    <form action="article_4.php">
                         <button class="buttonIndex">More...</button>
                     </form>
                 </div>
@@ -134,7 +134,7 @@
 
                 </ul>
                 <div class="buttonContainerIndex">
-                    <form action="article_4.php">
+                    <form action="article_5.php">
                         <button class="buttonIndex">More...</button>
                     </form>
                 </div>
