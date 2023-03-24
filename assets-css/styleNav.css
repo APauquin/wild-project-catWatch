@@ -224,4 +224,5 @@ nav>ul>li:hover>a {
     background-color: rgba(255, 0, 0, 0);
     border: none;
     cursor: pointer;
+    opacity:0.10;
 }
