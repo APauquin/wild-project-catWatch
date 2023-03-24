@@ -10,11 +10,11 @@ h2.contactH2 {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  color: #fefacc;
   font-family: "Zen Tokyo Zoo", cursive;
-  font-size: 3.5rem;
-  font-weight: normal;
-  margin-top: 0;
+  color: #fefacc;
+  font-size: 8.5vh;
+  font-weight: 400;
+  text-shadow: -2px 0px 0px #120a08, 2px 0px 0px #CE5937, 0px 2px 0px #CE5937, 0px -2px 0px #CE5937, 1px -1px 0px #CE5937, -2px -2px 0px #CE5937, 2px -1px 0px #CE5937, -2px 2px 0px #CE5937, 2px 2px 0px #CE5937, 2px 2px 0px #CE5937; 
 }
   
 /* Contact box */
@@ -25,7 +25,7 @@ h2.contactH2 {
   
   body.contactBody, button.app-form-button, input {
     font-family: 'Iceland';
-    font-weight: 40px;
+    font-weight: 25px;
     letter-spacing: 1.4px;
   }
   
@@ -67,7 +67,8 @@ h2.contactH2 {
     flex-direction: column;
     position: relative;
     color: #212135;
-    font-size: 26px;
+    font-family: "Iceland";
+    font-size: 40px;
   }
   
   .app-title:after {
