@@ -12,9 +12,10 @@
         <li class="menu-deroulant">
             <a href="#">Articles</a>
             <ul id="rainbow2" class="sous-menu">
-                <li><a href="#">categories</a></li>
-                <li><a href="#">categories</a></li>
-                <li><a href="#">categories</a></li>
+                <li><a href="articlesChattearoulete.php">Chattearoulette</a></li>
+                <li><a href="articlesChatstronaute.php">Chastronaute</a></li>
+                <li><a href="articlesChatbot.php">Chatbot</a></li>
+                <li><a href="articlesChaliennes.php">Chatliennes</a></li>
             </ul>
         </li>
 
