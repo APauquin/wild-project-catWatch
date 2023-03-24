@@ -45,11 +45,12 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  color: #fefacc;
   font-family: "Zen Tokyo Zoo", cursive;
-  font-weight: normal;
+  color: #fefacc;
+  font-size: 4rem;
+  font-weight: 400;
+  text-shadow: -2px 0px 0px #120a08, 2px 0px 0px #CE5937, 0px 2px 0px #CE5937, 0px -2px 0px #CE5937, 1px -1px 0px #CE5937, -2px -2px 0px #CE5937, 2px -1px 0px #CE5937, -2px 2px 0px #CE5937, 2px 2px 0px #CE5937, 2px 2px 0px #CE5937; 
   margin-top: 0;
-  font-size: 60px;
 }
 
 
