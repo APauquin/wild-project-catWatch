@@ -481,7 +481,7 @@
     <!-- end of article list -->
 
     <!-- footer starts here -->
-    <button type="button" id="nyanpc" onclick="colorRainbow(); changeImagepc(); colorainbow2();">&#128008;</button>
+    
     <?php include("./assets-php/footer.php"); ?>
 
     <!-- end of footer -->
