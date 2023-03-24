@@ -41,7 +41,7 @@
 
                 </ul>
                 <div class="buttonContainerIndex">
-                    <form action="articlesChatstronaute.php">
+                    <form action="articles_1.php">
                         <button class="buttonIndex">More...</button>
                     </form>
                 </div>
@@ -63,7 +63,7 @@
 
                 </ul>
                 <div class="buttonContainerIndex">
-                    <form action="articlesChatstronaute.php">
+                    <form action="articles_2.php">
                         <button class="buttonIndex">More...</button>
                     </form>
                 </div>
@@ -86,7 +86,7 @@
 
                 </ul>
                 <div class="buttonContainerIndex">
-                    <form action="articlesChatstronaute.php">
+                    <form action="articles_3.php">
                         <button class="buttonIndex">More...</button>
                     </form>
                 </div>
@@ -111,7 +111,7 @@
 
                 </ul>
                 <div class="buttonContainerIndex">
-                    <form action="articlesChatstronaute.php">
+                    <form action="articles_5.php">
                         <button class="buttonIndex">More...</button>
                     </form>
                 </div>
@@ -134,7 +134,7 @@
 
                 </ul>
                 <div class="buttonContainerIndex">
-                    <form action="articlesChatstronaute.php">
+                    <form action="articles_4.php">
                         <button class="buttonIndex">More...</button>
                     </form>
                 </div>
