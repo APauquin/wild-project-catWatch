@@ -914,3 +914,14 @@ div.newsFlash.active div.newsFlashContainer:hover {
         background-color: #090B3C;
     }
 }
+
+.button_link{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: right;
+    text-decoration: none;
+    background-color:#e0f8fe ;
+    border-radius: 5px;
+    padding: 2px 2px;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+
+}
