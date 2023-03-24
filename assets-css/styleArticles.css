@@ -10,7 +10,6 @@
 
 
 /* section */
-
 .articles {
   padding: 0.5 rem;
   margin: 0 auto 1rem;
@@ -90,3 +89,21 @@
   grid-column: 1 / -1;
 }
 
+.buttonIndex {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  float: right;
+  text-decoration: none;
+  background-color:#e0f8fe ;
+  border-radius: 5px;
+  padding: 2px 2px;
+  border: 1px solid rgba(0, 0, 0, 0.151);
+}
+
+.buttonIndex:hover {
+  color:#f3f3f3;
+  background-color: #090B3C;
+  border-style: solid;
+  border-color: #f3f3f3;
+  border-width: 1px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
