@@ -15,7 +15,7 @@
     ?>
   </header>
   
-  <h2 class="adviceH2">CONSEILS</h2>
+  <h2 class="adviceH2">Conseils</h2>
 
   <section class="adviceMain">
     <p class="adviceIntro">
