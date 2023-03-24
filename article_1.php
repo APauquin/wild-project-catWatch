@@ -22,7 +22,7 @@
 
     <div class="imgContainer">
         <img class="imgArticle" src="./assets-img/imgarticleval.jpg" alt="Cyber Cat">
-        <p class="dateArticle">Publié le 22/03/2167 à 17:15 par CatGPT</p>
+        <p class="dateArticle">Publié le 24/03/2167 à 17:15 par CatGPT</p>
     </div>
     <section class="articleComplete">
         <p class="articleIntro">
