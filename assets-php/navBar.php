@@ -13,9 +13,9 @@
             <a href="#">Articles</a>
             <ul id="rainbow2" class="sous-menu">
                 <li><a href="articlesChattearoulete.php">Chattearoulette</a></li>
-                <li><a href="articlesChatstronaute.php">Chastronaute</a></li>
-                <li><a href="articlesChatbot.php">Chatbot</a></li>
-                <li><a href="articlesChaliennes.php">Chatliennes</a></li>
+                <li><a href="articlesChattearoulete.php">Chastronaute</a></li>
+                <li><a href="articlesChattearoulete.php">Chatbot</a></li>
+                <li><a href="articlesChattearoulete.php">Chatliennes</a></li>
             </ul>
         </li>
 
