@@ -22,7 +22,7 @@
 
     <div class="imgContainer">
         <img class="imgArticle" src="https://i.ibb.co/cYqm1Zp/stock-photo-futuristic-cyber-cat-in-cyberpunk-style-2205874523-01.jpg" alt="Cyber Cat">
-        <p class="dateArticle">Publié le 15/07/2059 à 17:15 par CatGPT</p>
+        <p class="dateArticle">Publié le 24/03/2167 à 17:55 par CatGPT</p>
     </div>
     <section class="articleComplete">
         <p class="articleIntro">

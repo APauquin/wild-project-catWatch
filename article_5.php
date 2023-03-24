@@ -17,12 +17,12 @@
     <h2 class="bandeauChatbot">Chatbots</h2>
 
 
-    <h3 class="articleTitle">Nettoyage de votre robot chat : </h3>
+    <h3 class="articleTitle">Chats biologiques VS Chats mécaniques : </h3>
 
 
     <div class="imgContainer">
         <img class="imgArticle" src="https://i.ibb.co/L0CdZQM/stock-photo-futuristic-cyber-cat-in-cyberpunk-style-2205874533-edited.jpg" alt="Cyber Cat">
-        <p class="dateArticle">Publié le 22/03/2167 à 17:15 par CatGPT</p>
+        <p class="dateArticle">Publié le 24/03/2167 à 18:14 par CatGPT</p>
     </div>
     <section class="articleComplete">
         <p class="articleIntro">
